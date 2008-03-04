@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<reactionList xmlns="http://www.xml-cml.org/schema">
+  <reaction id="Reac1">
+    <reactantList>
+      <reactant id="mol1">
+        <molecule id="mol1">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="404.17691453623974" y2="186.0" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a2" elementType="C" x2="373.0" y2="204.00000000000003" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a6" elementType="C" x2="435.3538290724796" y2="203.99999999999997" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a7" elementType="C" x2="404.0" y2="150.0" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a3" elementType="C" x2="373.0" y2="240.00000000000003" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a5" elementType="C" x2="435.3538290724796" y2="239.99999999999997" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a8" elementType="N" x2="466.0" y2="185.0" formalCharge="1" hydrogenCount="0"/>
+            <atom id="a4" elementType="C" x2="404.1769145362398" y2="258.0" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a9" elementType="O" x2="497.0" y2="202.0" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a10" elementType="O" x2="483.0" y2="154.0" formalCharge="-1" hydrogenCount="0"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b1" atomRefs2="a1 a2" order="A"/>
+            <bond id="b6" atomRefs2="a6 a1" order="A"/>
+            <bond id="b7" atomRefs2="a1 a7" order="S"/>
+            <bond id="b2" atomRefs2="a2 a3" order="A"/>
+            <bond id="b5" atomRefs2="a5 a6" order="A"/>
+            <bond id="b8" atomRefs2="a6 a8" order="S"/>
+            <bond id="b3" atomRefs2="a3 a4" order="A"/>
+            <bond id="b4" atomRefs2="a4 a5" order="A"/>
+            <bond id="b9" atomRefs2="a8 a9" order="D"/>
+            <bond id="b10" atomRefs2="a8 a10" order="S"/>
+          </bondArray>
+        </molecule>
+      </reactant>
+      <reactant id="mol2">
+        <molecule id="mol2">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="395.9415318122062" y2="232.97807442957733" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a2" elementType="Mg" x2="359.8126258501564" y2="213.16544857942097" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a3" elementType="C" x2="432.07043777425605" y2="212.0" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a4" elementType="Br" x2="343.0" y2="214.16544857942097" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a5" elementType="C" x2="468.19934373630593" y2="231.81262585015637" formalCharge="0" hydrogenCount="3"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b1" atomRefs2="a2 a1" order="S"/>
+            <bond id="b2" atomRefs2="a1 a3" order="D"/>
+            <bond id="b3" atomRefs2="a2 a4" order="S"/>
+            <bond id="b4" atomRefs2="a3 a5" order="S"/>
+          </bondArray>
+        </molecule>
+      </reactant>
+    </reactantList>
+    <productList>
+      <product id="mol3">
+        <molecule id="mol3">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="326.36612097513347" y2="204.21847677685543" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a2" elementType="C" x2="295.0" y2="222.3277151652832" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a6" elementType="C" x2="357.7322419502671" y2="222.32771516528314" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a7" elementType="C" x2="326.1881327800699" y2="168.0" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a3" elementType="C" x2="295.0" y2="258.54619194213865" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a5" elementType="C" x2="357.7322419502671" y2="258.54619194213853" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a8" elementType="N" x2="388.5643983402099" y2="203.21240797749832" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a4" elementType="C" x2="326.3661209751335" y2="276.65543033056633" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a9" elementType="O" x2="419.75253112027985" y2="220.31557756656895" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a10" elementType="O" x2="388.0" y2="167.0" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a11" elementType="C" x2="450.4075329602444" y2="202.08939432676328" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a14" elementType="Mg" x2="413.0" y2="142.0" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a12" elementType="C" x2="481.48903955229326" y2="219.13409149014493" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a15" elementType="Br" x2="431.0" y2="141.0" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a13" elementType="C" x2="512.5705461443422" y2="201.08676508185846" formalCharge="0" hydrogenCount="3"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b1" atomRefs2="a1 a2" order="A"/>
+            <bond id="b6" atomRefs2="a6 a1" order="A"/>
+            <bond id="b7" atomRefs2="a1 a7" order="S"/>
+            <bond id="b2" atomRefs2="a2 a3" order="A"/>
+            <bond id="b5" atomRefs2="a5 a6" order="A"/>
+            <bond id="b8" atomRefs2="a6 a8" order="S"/>
+            <bond id="b3" atomRefs2="a3 a4" order="A"/>
+            <bond id="b4" atomRefs2="a4 a5" order="A"/>
+            <bond id="b9" atomRefs2="a8 a9" order="S"/>
+            <bond id="b10" atomRefs2="a8 a10" order="S"/>
+            <bond id="b11" atomRefs2="a9 a11" order="S"/>
+            <bond id="b14" atomRefs2="a10 a14" order="S"/>
+            <bond id="b12" atomRefs2="a11 a12" order="D"/>
+            <bond id="b15" atomRefs2="a14 a15" order="S"/>
+            <bond id="b13" atomRefs2="a12 a13" order="S"/>
+          </bondArray>
+        </molecule>
+      </product>
+    </productList>
+  </reaction>
+  <reaction id="Reac4">
+    <reactantList>
+      <reactant id="mol3">
+        <molecule id="mol3">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="326.36612097513347" y2="204.21847677685543" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a2" elementType="C" x2="295.0" y2="222.3277151652832" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a6" elementType="C" x2="357.7322419502671" y2="222.32771516528314" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a7" elementType="C" x2="326.1881327800699" y2="168.0" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a3" elementType="C" x2="295.0" y2="258.54619194213865" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a5" elementType="C" x2="357.7322419502671" y2="258.54619194213853" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a8" elementType="N" x2="388.5643983402099" y2="203.21240797749832" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a4" elementType="C" x2="326.3661209751335" y2="276.65543033056633" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a9" elementType="O" x2="419.75253112027985" y2="220.31557756656895" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a10" elementType="O" x2="388.0" y2="167.0" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a11" elementType="C" x2="450.4075329602444" y2="202.08939432676328" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a14" elementType="Mg" x2="413.0" y2="142.0" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a12" elementType="C" x2="481.48903955229326" y2="219.13409149014493" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a15" elementType="Br" x2="431.0" y2="141.0" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a13" elementType="C" x2="512.5705461443422" y2="201.08676508185846" formalCharge="0" hydrogenCount="3"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b1" atomRefs2="a1 a2" order="A"/>
+            <bond id="b6" atomRefs2="a6 a1" order="A"/>
+            <bond id="b7" atomRefs2="a1 a7" order="S"/>
+            <bond id="b2" atomRefs2="a2 a3" order="A"/>
+            <bond id="b5" atomRefs2="a5 a6" order="A"/>
+            <bond id="b8" atomRefs2="a6 a8" order="S"/>
+            <bond id="b3" atomRefs2="a3 a4" order="A"/>
+            <bond id="b4" atomRefs2="a4 a5" order="A"/>
+            <bond id="b9" atomRefs2="a8 a9" order="S"/>
+            <bond id="b10" atomRefs2="a8 a10" order="S"/>
+            <bond id="b11" atomRefs2="a9 a11" order="S"/>
+            <bond id="b14" atomRefs2="a10 a14" order="S"/>
+            <bond id="b12" atomRefs2="a11 a12" order="D"/>
+            <bond id="b15" atomRefs2="a14 a15" order="S"/>
+            <bond id="b13" atomRefs2="a12 a13" order="S"/>
+          </bondArray>
+        </molecule>
+      </reactant>
+    </reactantList>
+    <productList>
+      <product id="mol4">
+        <molecule id="mol4">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="394.0565559036168" y2="232.41990256676377" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a2" elementType="O" x2="357.1667237053015" y2="212.18999458704243" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a3" elementType="C" x2="430.9463881019322" y2="211.0" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a4" elementType="Mg" x2="340.0" y2="213.0" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a5" elementType="C" x2="467.83622030024765" y2="231.22990797972133" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a6" elementType="Br" x2="325.0" y2="213.0" formalCharge="0" hydrogenCount="0"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b1" atomRefs2="a2 a1" order="S"/>
+            <bond id="b2" atomRefs2="a1 a3" order="D"/>
+            <bond id="b3" atomRefs2="a2 a4" order="S"/>
+            <bond id="b4" atomRefs2="a3 a5" order="S"/>
+            <bond id="b5" atomRefs2="a4 a6" order="S"/>
+          </bondArray>
+        </molecule>
+      </product>
+      <product id="mol5">
+        <molecule id="mol5">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="462.233415144541" y2="90.06524128282425" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a2" elementType="C" x2="431.0" y2="108.09786192423641" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a6" elementType="C" x2="493.46683028908217" y2="108.09786192423635" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a7" elementType="C" x2="462.05617999354314" y2="54.0" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a3" elementType="C" x2="431.0" y2="144.1631032070607" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a5" elementType="C" x2="493.46683028908217" y2="144.16310320706063" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a8" elementType="N" x2="524.1685399806294" y2="89.06342902496803" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a4" elementType="C" x2="462.2334151445411" y2="162.1957238484728" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a9" elementType="O" x2="555.2247199741726" y2="106.09423740852392" formalCharge="0" hydrogenCount="0"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b1" atomRefs2="a1 a2" order="A"/>
+            <bond id="b6" atomRefs2="a6 a1" order="A"/>
+            <bond id="b7" atomRefs2="a1 a7" order="S"/>
+            <bond id="b2" atomRefs2="a2 a3" order="A"/>
+            <bond id="b5" atomRefs2="a5 a6" order="A"/>
+            <bond id="b8" atomRefs2="a6 a8" order="S"/>
+            <bond id="b3" atomRefs2="a3 a4" order="A"/>
+            <bond id="b4" atomRefs2="a4 a5" order="A"/>
+            <bond id="b9" atomRefs2="a8 a9" order="D"/>
+          </bondArray>
+        </molecule>
+      </product>
+    </productList>
+  </reaction>
+  <reaction id="Reac5">
+    <reactantList>
+      <reactant id="mol4">
+        <molecule id="mol4">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="394.0565559036168" y2="232.41990256676377" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a2" elementType="O" x2="357.1667237053015" y2="212.18999458704243" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a3" elementType="C" x2="430.9463881019322" y2="211.0" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a4" elementType="Mg" x2="340.0" y2="213.0" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a5" elementType="C" x2="467.83622030024765" y2="231.22990797972133" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a6" elementType="Br" x2="325.0" y2="213.0" formalCharge="0" hydrogenCount="0"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b1" atomRefs2="a2 a1" order="S"/>
+            <bond id="b2" atomRefs2="a1 a3" order="D"/>
+            <bond id="b3" atomRefs2="a2 a4" order="S"/>
+            <bond id="b4" atomRefs2="a3 a5" order="S"/>
+            <bond id="b5" atomRefs2="a4 a6" order="S"/>
+          </bondArray>
+        </molecule>
+      </reactant>
+    </reactantList>
+    <productList>
+      <product id="mol6">
+        <molecule id="mol6">
+          <atomArray>
+            <atom id="a1" elementType="O" x2="401.18275989492116" y2="235.2506605989336" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a3" elementType="C" x2="442.94778648197354" y2="211.0" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a5" elementType="C" x2="484.712813069026" y2="233.90340167677064" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a2" elementType="C" x2="515.0" y2="215.0" formalCharge="0" hydrogenCount="0"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b2" atomRefs2="a1 a3" order="D"/>
+            <bond id="b4" atomRefs2="a3 a5" order="S"/>
+            <bond id="b1" atomRefs2="a5 a2" order="S"/>
+          </bondArray>
+        </molecule>
+      </product>
+    </productList>
+  </reaction>
+  <reaction id="Reac6">
+    <reactantList>
+      <reactant id="mol5">
+        <molecule id="mol5">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="462.233415144541" y2="90.06524128282425" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a2" elementType="C" x2="431.0" y2="108.09786192423641" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a6" elementType="C" x2="493.46683028908217" y2="108.09786192423635" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a7" elementType="C" x2="462.05617999354314" y2="54.0" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a3" elementType="C" x2="431.0" y2="144.1631032070607" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a5" elementType="C" x2="493.46683028908217" y2="144.16310320706063" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a8" elementType="N" x2="524.1685399806294" y2="89.06342902496803" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a4" elementType="C" x2="462.2334151445411" y2="162.1957238484728" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a9" elementType="O" x2="555.2247199741726" y2="106.09423740852392" formalCharge="0" hydrogenCount="0"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b1" atomRefs2="a1 a2" order="A"/>
+            <bond id="b6" atomRefs2="a6 a1" order="A"/>
+            <bond id="b7" atomRefs2="a1 a7" order="S"/>
+            <bond id="b2" atomRefs2="a2 a3" order="A"/>
+            <bond id="b5" atomRefs2="a5 a6" order="A"/>
+            <bond id="b8" atomRefs2="a6 a8" order="S"/>
+            <bond id="b3" atomRefs2="a3 a4" order="A"/>
+            <bond id="b4" atomRefs2="a4 a5" order="A"/>
+            <bond id="b9" atomRefs2="a8 a9" order="D"/>
+          </bondArray>
+        </molecule>
+      </reactant>
+      <reactant id="mol7">
+        <molecule id="mol7">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="483.0565559036168" y2="119.41990256676377" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a2" elementType="Mg" x2="446.1667237053015" y2="99.18999458704243" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a3" elementType="C" x2="519.9463881019321" y2="98.0" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a4" elementType="Br" x2="429.0" y2="100.21105601184905" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a5" elementType="C" x2="556.8362203002476" y2="118.22990797972133" formalCharge="0" hydrogenCount="3"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b1" atomRefs2="a2 a1" order="S"/>
+            <bond id="b2" atomRefs2="a1 a3" order="D"/>
+            <bond id="b3" atomRefs2="a2 a4" order="S"/>
+            <bond id="b4" atomRefs2="a3 a5" order="S"/>
+          </bondArray>
+        </molecule>
+      </reactant>
+    </reactantList>
+    <productList>
+      <product id="mol8">
+        <molecule id="mol8">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="460.65246043280376" y2="50.70381364116575" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a2" elementType="C" x2="428.0" y2="69.55572046174866" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a6" elementType="C" x2="493.3049208656076" y2="69.5557204617486" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a7" elementType="C" x2="460.46717285767045" y2="13.0" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a3" elementType="C" x2="428.0" y2="107.25953410291444" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a5" elementType="C" x2="493.3049208656076" y2="107.25953410291433" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a8" elementType="N" x2="525.4015185730116" y2="49.6564854844667" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a4" elementType="C" x2="460.6524604328038" y2="126.1114409234973" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a9" elementType="O" x2="557.868691430682" y2="67.46106414835053" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a10" elementType="Mg" x2="524.6113235663565" y2="13.071019935591607" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a12" elementType="C" x2="556.867224946204" y2="104.45415963924162" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a11" elementType="Br" x2="542.134037250259" y2="13.071019935591607" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a13" elementType="C" x2="530.8859295941468" y2="130.4354549912989" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a14" elementType="C" x2="530.8859295941468" y2="167.8485202982614" formalCharge="0" hydrogenCount="3"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b1" atomRefs2="a1 a2" order="A"/>
+            <bond id="b6" atomRefs2="a6 a1" order="A"/>
+            <bond id="b7" atomRefs2="a1 a7" order="S"/>
+            <bond id="b2" atomRefs2="a2 a3" order="A"/>
+            <bond id="b5" atomRefs2="a5 a6" order="A"/>
+            <bond id="b8" atomRefs2="a6 a8" order="S"/>
+            <bond id="b3" atomRefs2="a3 a4" order="A"/>
+            <bond id="b4" atomRefs2="a4 a5" order="A"/>
+            <bond id="b9" atomRefs2="a8 a9" order="S"/>
+            <bond id="b10" atomRefs2="a8 a10" order="S"/>
+            <bond id="b12" atomRefs2="a9 a12" order="S"/>
+            <bond id="b11" atomRefs2="a10 a11" order="S"/>
+            <bond id="b13" atomRefs2="a12 a13" order="D"/>
+            <bond id="b14" atomRefs2="a13 a14" order="S"/>
+          </bondArray>
+        </molecule>
+      </product>
+    </productList>
+  </reaction>
+  <reaction id="Reac7">
+    <reactantList>
+      <reactant id="mol8">
+        <molecule id="mol8">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="460.65246043280376" y2="50.70381364116575" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a2" elementType="C" x2="428.0" y2="69.55572046174866" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a6" elementType="C" x2="493.3049208656076" y2="69.5557204617486" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a7" elementType="C" x2="460.46717285767045" y2="13.0" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a3" elementType="C" x2="428.0" y2="107.25953410291444" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a5" elementType="C" x2="493.3049208656076" y2="107.25953410291433" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a8" elementType="N" x2="525.4015185730116" y2="49.6564854844667" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a4" elementType="C" x2="460.6524604328038" y2="126.1114409234973" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a9" elementType="O" x2="557.868691430682" y2="67.46106414835053" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a10" elementType="Mg" x2="524.6113235663565" y2="13.071019935591607" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a12" elementType="C" x2="556.867224946204" y2="104.45415963924162" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a11" elementType="Br" x2="542.134037250259" y2="13.071019935591607" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a13" elementType="C" x2="530.8859295941468" y2="130.4354549912989" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a14" elementType="C" x2="530.8859295941468" y2="167.8485202982614" formalCharge="0" hydrogenCount="3"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b1" atomRefs2="a1 a2" order="A"/>
+            <bond id="b6" atomRefs2="a6 a1" order="A"/>
+            <bond id="b7" atomRefs2="a1 a7" order="S"/>
+            <bond id="b2" atomRefs2="a2 a3" order="A"/>
+            <bond id="b5" atomRefs2="a5 a6" order="A"/>
+            <bond id="b8" atomRefs2="a6 a8" order="S"/>
+            <bond id="b3" atomRefs2="a3 a4" order="A"/>
+            <bond id="b4" atomRefs2="a4 a5" order="A"/>
+            <bond id="b9" atomRefs2="a8 a9" order="S"/>
+            <bond id="b10" atomRefs2="a8 a10" order="S"/>
+            <bond id="b12" atomRefs2="a9 a12" order="S"/>
+            <bond id="b11" atomRefs2="a10 a11" order="S"/>
+            <bond id="b13" atomRefs2="a12 a13" order="D"/>
+            <bond id="b14" atomRefs2="a13 a14" order="S"/>
+          </bondArray>
+        </molecule>
+      </reactant>
+    </reactantList>
+    <productList>
+      <product id="mol9">
+        <molecule id="mol9">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="446.0475848813404" y2="61.160064054617834" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a7" elementType="C" x2="445.8600551581431" y2="23.0" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a6" elementType="C" x2="479.0951697626809" y2="80.24009608192668" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a2" elementType="C" x2="413.0" y2="80.24009608192674" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a5" elementType="C" x2="479.0951697626809" y2="118.40016013654443" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a8" elementType="N" x2="511.5801654744294" y2="60.10006227532281" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a3" elementType="C" x2="413.0" y2="118.40016013654454" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a4" elementType="C" x2="446.04758488134047" y2="137.48019216385345" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a9" elementType="C" x2="510.16168725286656" y2="135.34320088612694" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a10" elementType="Mg" x2="510.7804083899982" y2="23.071879341361154" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a12" elementType="C" x2="510.16168725286656" y2="171.77883360595186" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a13" elementType="C" x2="541.5368154282714" y2="117.12538452621445" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a11" elementType="Br" x2="528.5151628355904" y2="23.071879341361154" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a14" elementType="O" x2="572.9119436036763" y2="134.33109997724287" formalCharge="0" hydrogenCount="0"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b7" atomRefs2="a1 a7" order="S"/>
+            <bond id="b1" atomRefs2="a1 a6" order="S"/>
+            <bond id="b2" atomRefs2="a2 a1" order="D"/>
+            <bond id="b3" atomRefs2="a5 a6" order="S"/>
+            <bond id="b8" atomRefs2="a6 a8" order="D"/>
+            <bond id="b4" atomRefs2="a3 a2" order="S"/>
+            <bond id="b5" atomRefs2="a4 a5" order="S"/>
+            <bond id="b6" atomRefs2="a5 a9" order="S"/>
+            <bond id="b10" atomRefs2="a8 a10" order="S"/>
+            <bond id="b9" atomRefs2="a3 a4" order="D"/>
+            <bond id="b12" atomRefs2="a9 a12" order="S"/>
+            <bond id="b13" atomRefs2="a9 a13" order="S"/>
+            <bond id="b11" atomRefs2="a10 a11" order="S"/>
+            <bond id="b14" atomRefs2="a13 a14" order="D"/>
+          </bondArray>
+        </molecule>
+      </product>
+    </productList>
+  </reaction>
+  <reaction id="Reac8">
+    <reactantList>
+      <reactant id="mol9">
+        <molecule id="mol9">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="446.0475848813404" y2="61.160064054617834" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a7" elementType="C" x2="445.8600551581431" y2="23.0" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a6" elementType="C" x2="479.0951697626809" y2="80.24009608192668" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a2" elementType="C" x2="413.0" y2="80.24009608192674" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a5" elementType="C" x2="479.0951697626809" y2="118.40016013654443" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a8" elementType="N" x2="511.5801654744294" y2="60.10006227532281" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a3" elementType="C" x2="413.0" y2="118.40016013654454" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a4" elementType="C" x2="446.04758488134047" y2="137.48019216385345" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a9" elementType="C" x2="510.16168725286656" y2="135.34320088612694" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a10" elementType="Mg" x2="510.7804083899982" y2="23.071879341361154" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a12" elementType="C" x2="510.16168725286656" y2="171.77883360595186" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a13" elementType="C" x2="541.5368154282714" y2="117.12538452621445" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a11" elementType="Br" x2="528.5151628355904" y2="23.071879341361154" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a14" elementType="O" x2="572.9119436036763" y2="134.33109997724287" formalCharge="0" hydrogenCount="0"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b7" atomRefs2="a1 a7" order="S"/>
+            <bond id="b1" atomRefs2="a1 a6" order="S"/>
+            <bond id="b2" atomRefs2="a2 a1" order="D"/>
+            <bond id="b3" atomRefs2="a5 a6" order="S"/>
+            <bond id="b8" atomRefs2="a6 a8" order="D"/>
+            <bond id="b4" atomRefs2="a3 a2" order="S"/>
+            <bond id="b5" atomRefs2="a4 a5" order="S"/>
+            <bond id="b6" atomRefs2="a5 a9" order="S"/>
+            <bond id="b10" atomRefs2="a8 a10" order="S"/>
+            <bond id="b9" atomRefs2="a3 a4" order="D"/>
+            <bond id="b12" atomRefs2="a9 a12" order="S"/>
+            <bond id="b13" atomRefs2="a9 a13" order="S"/>
+            <bond id="b11" atomRefs2="a10 a11" order="S"/>
+            <bond id="b14" atomRefs2="a13 a14" order="D"/>
+          </bondArray>
+        </molecule>
+      </reactant>
+    </reactantList>
+    <productList>
+      <product id="mol10">
+        <molecule id="mol10">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="418.263781423536" y2="48.56440685666608" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a7" elementType="C" x2="418.06935034879575" y2="9.0" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a6" elementType="C" x2="452.52756284707215" y2="68.34661028499914" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a2" elementType="C" x2="384.0" y2="68.34661028499914" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a5" elementType="C" x2="452.52756284707215" y2="107.91101714166508" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a8" elementType="N" x2="490.15554980145697" y2="56.12053619392462" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a3" elementType="C" x2="384.0" y2="107.9110171416652" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a4" elementType="C" x2="418.26378142353605" y2="127.69322056999823" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a9" elementType="C" x2="490.15554980145697" y2="120.13709123273959" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a10" elementType="C" x2="513.4109246675046" y2="88.12881371333214" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a11" elementType="C" x2="499.0849525515536" y2="155.18899378170323" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a12" elementType="O" x2="549.8882198941312" y2="87.79690444971237" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a13" elementType="Mg" x2="564.4034391348678" y2="87.79690444971237" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a14" elementType="Br" x2="582.0290624986192" y2="87.79690444971237" formalCharge="0" hydrogenCount="0"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b7" atomRefs2="a1 a7" order="S"/>
+            <bond id="b1" atomRefs2="a1 a6" order="S"/>
+            <bond id="b2" atomRefs2="a2 a1" order="D"/>
+            <bond id="b3" atomRefs2="a5 a6" order="S"/>
+            <bond id="b6" atomRefs2="a6 a8" order="D"/>
+            <bond id="b4" atomRefs2="a3 a2" order="S"/>
+            <bond id="b5" atomRefs2="a4 a5" order="S"/>
+            <bond id="b8" atomRefs2="a9 a5" order="S"/>
+            <bond id="b10" atomRefs2="a8 a10" order="S"/>
+            <bond id="b9" atomRefs2="a3 a4" order="D"/>
+            <bond id="b11" atomRefs2="a10 a9" order="S"/>
+            <bond id="b12" atomRefs2="a9 a11" order="S"/>
+            <bond id="b13" atomRefs2="a10 a12" order="S"/>
+            <bond id="b14" atomRefs2="a12 a13" order="S"/>
+            <bond id="b15" atomRefs2="a13 a14" order="S"/>
+          </bondArray>
+        </molecule>
+      </product>
+    </productList>
+  </reaction>
+  <reaction id="Reac9">
+    <reactantList>
+      <reactant id="mol10">
+        <molecule id="mol10">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="418.263781423536" y2="48.56440685666608" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a7" elementType="C" x2="418.06935034879575" y2="9.0" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a6" elementType="C" x2="452.52756284707215" y2="68.34661028499914" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a2" elementType="C" x2="384.0" y2="68.34661028499914" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a5" elementType="C" x2="452.52756284707215" y2="107.91101714166508" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a8" elementType="N" x2="490.15554980145697" y2="56.12053619392462" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a3" elementType="C" x2="384.0" y2="107.9110171416652" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a4" elementType="C" x2="418.26378142353605" y2="127.69322056999823" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a9" elementType="C" x2="490.15554980145697" y2="120.13709123273959" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a10" elementType="C" x2="513.4109246675046" y2="88.12881371333214" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a11" elementType="C" x2="499.0849525515536" y2="155.18899378170323" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a12" elementType="O" x2="549.8882198941312" y2="87.79690444971237" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a13" elementType="Mg" x2="564.4034391348678" y2="87.79690444971237" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a14" elementType="Br" x2="582.0290624986192" y2="87.79690444971237" formalCharge="0" hydrogenCount="0"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b7" atomRefs2="a1 a7" order="S"/>
+            <bond id="b1" atomRefs2="a1 a6" order="S"/>
+            <bond id="b2" atomRefs2="a2 a1" order="D"/>
+            <bond id="b3" atomRefs2="a5 a6" order="S"/>
+            <bond id="b6" atomRefs2="a6 a8" order="D"/>
+            <bond id="b4" atomRefs2="a3 a2" order="S"/>
+            <bond id="b5" atomRefs2="a4 a5" order="S"/>
+            <bond id="b8" atomRefs2="a9 a5" order="S"/>
+            <bond id="b10" atomRefs2="a8 a10" order="S"/>
+            <bond id="b9" atomRefs2="a3 a4" order="D"/>
+            <bond id="b11" atomRefs2="a10 a9" order="S"/>
+            <bond id="b12" atomRefs2="a9 a11" order="S"/>
+            <bond id="b13" atomRefs2="a10 a12" order="S"/>
+            <bond id="b14" atomRefs2="a12 a13" order="S"/>
+            <bond id="b15" atomRefs2="a13 a14" order="S"/>
+          </bondArray>
+        </molecule>
+      </reactant>
+    </reactantList>
+    <productList>
+      <product id="mol11">
+        <molecule id="mol11">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="428.263781423536" y2="112.56440685666608" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a7" elementType="C" x2="428.06935034879575" y2="73.0" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a6" elementType="C" x2="462.52756284707215" y2="132.34661028499914" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a2" elementType="C" x2="394.0" y2="132.34661028499914" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a5" elementType="C" x2="462.52756284707215" y2="171.91101714166507" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a8" elementType="N" x2="500.15554980145697" y2="120.12053619392462" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a3" elementType="C" x2="394.0" y2="171.91101714166518" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a4" elementType="C" x2="428.26378142353605" y2="191.69322056999823" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a9" elementType="C" x2="500.15554980145697" y2="184.13709123273958" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a10" elementType="C" x2="523.4109246675046" y2="152.12881371333214" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a11" elementType="C" x2="509.0849525515536" y2="219.18899378170323" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a12" elementType="O" x2="559.8882198941312" y2="151.79690444971237" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a13" elementType="Mg" x2="574.4034391348678" y2="151.79690444971237" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a14" elementType="Br" x2="592.0290624986192" y2="151.79690444971237" formalCharge="0" hydrogenCount="0"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b7" atomRefs2="a1 a7" order="S"/>
+            <bond id="b1" atomRefs2="a1 a6" order="A"/>
+            <bond id="b2" atomRefs2="a2 a1" order="A"/>
+            <bond id="b3" atomRefs2="a5 a6" order="A"/>
+            <bond id="b6" atomRefs2="a6 a8" order="S"/>
+            <bond id="b4" atomRefs2="a3 a2" order="A"/>
+            <bond id="b5" atomRefs2="a4 a5" order="A"/>
+            <bond id="b8" atomRefs2="a9 a5" order="S"/>
+            <bond id="b10" atomRefs2="a8 a10" order="S"/>
+            <bond id="b9" atomRefs2="a3 a4" order="A"/>
+            <bond id="b11" atomRefs2="a10 a9" order="S"/>
+            <bond id="b12" atomRefs2="a9 a11" order="S"/>
+            <bond id="b13" atomRefs2="a10 a12" order="S"/>
+            <bond id="b14" atomRefs2="a12 a13" order="S"/>
+            <bond id="b15" atomRefs2="a13 a14" order="S"/>
+          </bondArray>
+        </molecule>
+      </product>
+    </productList>
+  </reaction>
+  <reaction id="Reac10">
+    <reactantList>
+      <reactant id="mol11">
+        <molecule id="mol11">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="428.263781423536" y2="112.56440685666608" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a7" elementType="C" x2="428.06935034879575" y2="73.0" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a6" elementType="C" x2="462.52756284707215" y2="132.34661028499914" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a2" elementType="C" x2="394.0" y2="132.34661028499914" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a5" elementType="C" x2="462.52756284707215" y2="171.91101714166507" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a8" elementType="N" x2="500.15554980145697" y2="120.12053619392462" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a3" elementType="C" x2="394.0" y2="171.91101714166518" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a4" elementType="C" x2="428.26378142353605" y2="191.69322056999823" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a9" elementType="C" x2="500.15554980145697" y2="184.13709123273958" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a10" elementType="C" x2="523.4109246675046" y2="152.12881371333214" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a11" elementType="C" x2="509.0849525515536" y2="219.18899378170323" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a12" elementType="O" x2="559.8882198941312" y2="151.79690444971237" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a13" elementType="Mg" x2="574.4034391348678" y2="151.79690444971237" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a14" elementType="Br" x2="592.0290624986192" y2="151.79690444971237" formalCharge="0" hydrogenCount="0"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b7" atomRefs2="a1 a7" order="S"/>
+            <bond id="b1" atomRefs2="a1 a6" order="A"/>
+            <bond id="b2" atomRefs2="a2 a1" order="A"/>
+            <bond id="b3" atomRefs2="a5 a6" order="A"/>
+            <bond id="b6" atomRefs2="a6 a8" order="S"/>
+            <bond id="b4" atomRefs2="a3 a2" order="A"/>
+            <bond id="b5" atomRefs2="a4 a5" order="A"/>
+            <bond id="b8" atomRefs2="a9 a5" order="S"/>
+            <bond id="b10" atomRefs2="a8 a10" order="S"/>
+            <bond id="b9" atomRefs2="a3 a4" order="A"/>
+            <bond id="b11" atomRefs2="a10 a9" order="S"/>
+            <bond id="b12" atomRefs2="a9 a11" order="S"/>
+            <bond id="b13" atomRefs2="a10 a12" order="S"/>
+            <bond id="b14" atomRefs2="a12 a13" order="S"/>
+            <bond id="b15" atomRefs2="a13 a14" order="S"/>
+          </bondArray>
+        </molecule>
+      </reactant>
+      <reactant id="mol12">
+        <molecule id="mol12">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="483.0565559036168" y2="114.41990256676377" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a2" elementType="Mg" x2="446.1667237053015" y2="94.18999458704243" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a3" elementType="C" x2="519.9463881019321" y2="93.0" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a4" elementType="Br" x2="429.0" y2="95.21105601184905" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a5" elementType="C" x2="556.8362203002476" y2="113.22990797972133" formalCharge="0" hydrogenCount="3"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b1" atomRefs2="a2 a1" order="S"/>
+            <bond id="b2" atomRefs2="a1 a3" order="D"/>
+            <bond id="b3" atomRefs2="a2 a4" order="S"/>
+            <bond id="b4" atomRefs2="a3 a5" order="S"/>
+          </bondArray>
+        </molecule>
+      </reactant>
+    </reactantList>
+    <productList>
+      <product id="mol13">
+        <molecule id="mol13">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="402.0" y2="304.0" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a2" elementType="C" x2="371.0" y2="322.0" formalCharge="0" hydrogenCount="2"/>
+            <atom id="a3" elementType="C" x2="433.0" y2="321.0" formalCharge="0" hydrogenCount="3"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b1" atomRefs2="a2 a1" order="D"/>
+            <bond id="b2" atomRefs2="a1 a3" order="S"/>
+          </bondArray>
+        </molecule>
+      </product>
+      <product id="mol14">
+        <molecule id="mol14">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="426.27910679884127" y2="66.73680361416123" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a7" elementType="C" x2="426.07891422330545" y2="26.0" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a6" elementType="C" x2="461.55821359768265" y2="87.10520542124178" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a2" elementType="C" x2="391.0" y2="87.10520542124178" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a5" elementType="C" x2="461.55821359768265" y2="127.84200903540292" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a8" elementType="N" x2="500.3012161279666" y2="74.51684080795124" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a3" elementType="C" x2="391.0" y2="127.84200903540304" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a4" elementType="C" x2="426.2791067988413" y2="148.21041084248358" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a9" elementType="C" x2="500.3012161279666" y2="140.43037364869346" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a10" elementType="C" x2="524.2457085179053" y2="107.47360722832232" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a15" elementType="Mg" x2="517.6448114006694" y2="42.47412180821718" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a11" elementType="C" x2="509.4952204141992" y2="176.52095566128" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a12" elementType="O" x2="561.8039213177644" y2="107.13186262593811" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a16" elementType="Br" x2="537.2078310479274" y2="42.47412180821718" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a13" elementType="Mg" x2="576.7492644330689" y2="107.13186262593811" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a14" elementType="Br" x2="594.8971810730814" y2="107.13186262593811" formalCharge="0" hydrogenCount="0"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b7" atomRefs2="a1 a7" order="S"/>
+            <bond id="b1" atomRefs2="a1 a6" order="A"/>
+            <bond id="b2" atomRefs2="a2 a1" order="A"/>
+            <bond id="b3" atomRefs2="a5 a6" order="A"/>
+            <bond id="b6" atomRefs2="a6 a8" order="S"/>
+            <bond id="b4" atomRefs2="a3 a2" order="A"/>
+            <bond id="b5" atomRefs2="a4 a5" order="A"/>
+            <bond id="b8" atomRefs2="a9 a5" order="S"/>
+            <bond id="b10" atomRefs2="a8 a10" order="S"/>
+            <bond id="b16" atomRefs2="a8 a15" order="S"/>
+            <bond id="b9" atomRefs2="a3 a4" order="A"/>
+            <bond id="b11" atomRefs2="a10 a9" order="S"/>
+            <bond id="b12" atomRefs2="a9 a11" order="S"/>
+            <bond id="b13" atomRefs2="a10 a12" order="S"/>
+            <bond id="b17" atomRefs2="a15 a16" order="S"/>
+            <bond id="b14" atomRefs2="a12 a13" order="S"/>
+            <bond id="b15" atomRefs2="a13 a14" order="S"/>
+          </bondArray>
+        </molecule>
+      </product>
+    </productList>
+  </reaction>
+  <reaction id="Reac11">
+    <reactantList>
+      <reactant id="mol14">
+        <molecule id="mol14">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="426.27910679884127" y2="66.73680361416123" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a7" elementType="C" x2="426.07891422330545" y2="26.0" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a6" elementType="C" x2="461.55821359768265" y2="87.10520542124178" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a2" elementType="C" x2="391.0" y2="87.10520542124178" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a5" elementType="C" x2="461.55821359768265" y2="127.84200903540292" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a8" elementType="N" x2="500.3012161279666" y2="74.51684080795124" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a3" elementType="C" x2="391.0" y2="127.84200903540304" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a4" elementType="C" x2="426.2791067988413" y2="148.21041084248358" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a9" elementType="C" x2="500.3012161279666" y2="140.43037364869346" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a10" elementType="C" x2="524.2457085179053" y2="107.47360722832232" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a15" elementType="Mg" x2="517.6448114006694" y2="42.47412180821718" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a11" elementType="C" x2="509.4952204141992" y2="176.52095566128" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a12" elementType="O" x2="561.8039213177644" y2="107.13186262593811" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a16" elementType="Br" x2="537.2078310479274" y2="42.47412180821718" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a13" elementType="Mg" x2="576.7492644330689" y2="107.13186262593811" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a14" elementType="Br" x2="594.8971810730814" y2="107.13186262593811" formalCharge="0" hydrogenCount="0"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b7" atomRefs2="a1 a7" order="S"/>
+            <bond id="b1" atomRefs2="a1 a6" order="A"/>
+            <bond id="b2" atomRefs2="a2 a1" order="A"/>
+            <bond id="b3" atomRefs2="a5 a6" order="A"/>
+            <bond id="b6" atomRefs2="a6 a8" order="S"/>
+            <bond id="b4" atomRefs2="a3 a2" order="A"/>
+            <bond id="b5" atomRefs2="a4 a5" order="A"/>
+            <bond id="b8" atomRefs2="a9 a5" order="S"/>
+            <bond id="b10" atomRefs2="a8 a10" order="S"/>
+            <bond id="b16" atomRefs2="a8 a15" order="S"/>
+            <bond id="b9" atomRefs2="a3 a4" order="A"/>
+            <bond id="b11" atomRefs2="a10 a9" order="S"/>
+            <bond id="b12" atomRefs2="a9 a11" order="S"/>
+            <bond id="b13" atomRefs2="a10 a12" order="S"/>
+            <bond id="b17" atomRefs2="a15 a16" order="S"/>
+            <bond id="b14" atomRefs2="a12 a13" order="S"/>
+            <bond id="b15" atomRefs2="a13 a14" order="S"/>
+          </bondArray>
+        </molecule>
+      </reactant>
+    </reactantList>
+    <productList>
+      <product id="mol15">
+        <molecule id="mol15">
+          <atomArray>
+            <atom id="a1" elementType="C" x2="426.27910679884127" y2="253.7368036141612" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a7" elementType="C" x2="426.07891422330545" y2="213.0" formalCharge="0" hydrogenCount="3"/>
+            <atom id="a6" elementType="C" x2="461.5582135976826" y2="274.10520542124175" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a2" elementType="C" x2="391.0" y2="274.10520542124175" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a5" elementType="C" x2="461.5582135976826" y2="314.8420090354029" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a8" elementType="N" x2="500.30121612796654" y2="261.5168408079512" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a3" elementType="C" x2="391.0" y2="314.842009035403" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a4" elementType="C" x2="426.2791067988413" y2="335.21041084248355" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a9" elementType="C" x2="500.30121612796654" y2="327.43037364869343" formalCharge="0" hydrogenCount="0"/>
+            <atom id="a10" elementType="C" x2="524.2457085179053" y2="294.4736072283223" formalCharge="0" hydrogenCount="1"/>
+            <atom id="a11" elementType="C" x2="509.49522041419914" y2="363.5209556612799" formalCharge="0" hydrogenCount="3"/>
+          </atomArray>
+          <bondArray>
+            <bond id="b7" atomRefs2="a1 a7" order="S"/>
+            <bond id="b1" atomRefs2="a1 a6" order="A"/>
+            <bond id="b2" atomRefs2="a2 a1" order="A"/>
+            <bond id="b3" atomRefs2="a5 a6" order="A"/>
+            <bond id="b6" atomRefs2="a6 a8" order="S"/>
+            <bond id="b4" atomRefs2="a3 a2" order="A"/>
+            <bond id="b5" atomRefs2="a4 a5" order="A"/>
+            <bond id="b8" atomRefs2="a9 a5" order="S"/>
+            <bond id="b10" atomRefs2="a8 a10" order="S"/>
+            <bond id="b9" atomRefs2="a3 a4" order="A"/>
+            <bond id="b11" atomRefs2="a10 a9" order="D"/>
+            <bond id="b12" atomRefs2="a9 a11" order="S"/>
+          </bondArray>
+        </molecule>
+      </product>
+    </productList>
+  </reaction>
+</reactionList>

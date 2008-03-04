@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mzData version="1.05" accessionNumber="psi-ms:101" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://psidev.sourceforge.net/ms/xml/mzdata/mzdata.xsd">
+  <cvLookup cvLabel="psi" fullName="The PSI Ontology" version="1.0.0" address="http://psidev.sourceforge.net/ontology/" />
+  <description>
+    <admin>
+      <sampleName>tt4_Batch1_2</sampleName>
+      <sampleDescription comment="sampleNumber 2">
+        <cvParam cvLabel="psi" accession="PSI:1000001" name="SampleNumber" value="Sample 1" />
+        <cvParam cvLabel="psi" accession="PSI:1000006" name="SampleConcentration" value="1.000" />
+        <cvParam cvLabel="psi" accession="PSI:1000002" name="SampleName" value="test sample" />
+      </sampleDescription>
+      <sourceFile>
+        <nameOfFile>tt4_Batch1_2.wiff</nameOfFile>
+        <pathToFile>file:///C:/PE%20Sciex%20Data/Projects/Statistik/Data/Datenserie%201</pathToFile>
+        <fileType>Analyst QS 1.1</fileType>
+      </sourceFile>
+      <contact>
+        <name>Not set</name>
+        <institution>Not set</institution>
+        <contactInfo>Not set</contactInfo>
+      </contact>
+    </admin>
+    <instrument>
+      <instrumentName>QStar</instrumentName>
+      <source>
+        <cvParam cvLabel="psi" accession="PSI:1000008" name="IonizationType" value="EI" />
+        <cvParam cvLabel="psi" accession="PSI:1000007" name="InletType" value="Chromatography" />
+      </source>
+      <analyzerList count="1">
+        <analyzer>
+          <cvParam cvLabel="psi" accession="PSI:1000010" name="AnalyzerType" value="TOF" />
+          <cvParam cvLabel="psi" accession="PSI:1000011" name="Resolution" value="7000" />
+          <cvParam cvLabel="psi" accession="PSI:1000014" name="Accuracy" value="0.0040" />
+        </analyzer>
+      </analyzerList>
+      <detector>
+        <cvParam cvLabel="psi" accession="PSI:1000026" name="DetectorType" value="PhotoMultiplier" />
+      </detector>
+    </instrument>
+    <dataProcessing>
+      <software>
+        <name>Wiff to mzData Translator</name>
+        <version>1.0.0.3</version>
+        <comments>Wiff to mzData Translator</comments>
+      </software>
+      <processingMethod>
+        <cvParam cvLabel="psi" accession="PSI:1000033" name="Deisotoping" value="false" />
+        <cvParam cvLabel="psi" accession="PSI:1000035" name="PeakProcessing" value="CentroidMassSpectrum" />
+      </processingMethod>
+    </dataProcessing>
+  </description>
+  <spectrumList count="1">
+    <spectrum id="1">
+      <spectrumDesc>
+        <spectrumSettings>
+          <acqSpecification spectrumType="continuous" methodOfCombination="TBA" count="1">
+            <acquisition acqNumber="1" />
+          </acqSpecification>
+          <spectrumInstrument msLevel="1" mzRangeStart="106.00" mzRangeStop="1000.00">
+            <cvParam cvLabel="psi" accession="PSI:1000037" name="Polarity" value="Positive" />
+            <cvParam cvLabel="psi" accession="PSI:1000038" name="TimeInMinutes" value="0.033" />
+          </spectrumInstrument>
+        </spectrumSettings>
+      </spectrumDesc>
+      <mzArrayBinary>
+        <data precision="64" endian="little" length="173">9Oi4W9KEWkB8sRdRjsVaQPXZrnlTBVtABdffVdJGW0B+mD3I7IZbQHp9ElxqxVtADQldGdYFXECZ5Fh6VkZcQG6stE8EflxAZX6gTkiGXEBWWEDOmr1cQLOaA4XzxFxAirtIgtD9XEAs3WJ/WwZdQIrrl9VFPV1AR7eM/u5EXUAKfb/3A31dQBgwVWq2hF1AEqgc1jq4XUA24cq41sVdQNduZXnGBV5A7UdfBcVGXkDA5CQnG4ReQJzPY8U1yF5ApoG2dI0FX0Bcei02AERfQHmLjwNAh19AkGW2hge+X0AWSa2Y3cZfQPAbId51A2BAVZSWRb0eYEBpND9XNiJgQCX9awLqQGBA6LxHWhljYEAlQop2voJgQMXfACmenGBAupjEYQCjYEAO3WZ/Db9gQKfD4508w2BAnZbqn6LhYEDl31Piw+RgQOcY2qr8AGFAj0O2LBUhYUBAL5BbOyRhQK47y81dQGFAGRW2um9EYUDyJhlKvGNhQJ6PxHvTg2FAO79TVvCiYUBGS9G03L5hQEx6Ckn8w2FAbva1CfjeYUDnXSgzI+RhQG2EFXzIAmJAV+RGSSgiYkAZFurt/T1iQBgDQOpwQ2JArJQv3YRjYkBaZYa0YYFiQHH4mmLzoGJA/D7sjp2kYkA0T3UFFcFiQP65/2WW42JAgE6bSeMAY0CqprZsgSNjQLy52aQpRGNAJk7zNm9iY0D7xxW/7YJjQPoyQcV1o2NAbMl3szDBY0AWPnBrvcVjQAoW1nVq5WNAu4IWOyMAZEANBNRM5gNkQHptd0C2I2RAttVEZxZCZECXdzqScWFkQM5WRozJZGRAECdbGw1+ZECh/5Uqf4JkQJpT07P7oWRAmoCwRUHDZEC1OHw5leNkQKL8DuNFAmVAlG0/5JYiZUD7DwjOwURlQMapvYmhZGVAeGwau8uEZUA/gVfZ3qJlQKb1hgJixGVAA3fTdQzgZUC7MauFieNlQPR+ru2UIWZAJx3B8oklZkBqJByrFURmQIIgcFyOY2ZAHA/Vj3SCZkDEayaOMaRmQDYtWJx9wGZAwuDcUyLFZkChvAsfkdtmQNjY0D2N42ZA9FPefcQjZ0BNMxg18UNnQEOCVrSZZGdAoZSTnKGEZ0Dite/ctaRnQHgKfBpu5WdABrE7EmclaEBqJu3WsUBoQAK75vfaZGhAM7b9YZuAaED3YLblpqRoQP9dCbnvxGhAo7xKVtzkaEBHisWYJgZpQOOeDVioJmlADLS+QN5FaUC7B4/MaWRpQAm5I6a7g2lAcsnkPy2jaUAJ208AWeVpQEkC8P+jJGpAq+3BxqxFakB0ETh0iWVqQHG5bAkMpWpA5zAXLSfDakBjZraEguRqQA20jTOJI2tA9jm2AyhEa0Dat2ayhGVrQIzS4haQpGtA/OrqzLTEa0DUmF5HS+JrQLOrTUhz6GtAhsS6dycEbEDXI2xu9iJsQCThXfQDRGxAc7dO6gtnbEBb8DDKPqNsQLVP9P/2pmxAo0NyRv7CbECl2cVYd+RsQET2xi80Km1A+RNi96hlbUDIw7sei6VtQNuCFSzS5W1A6SYKxOImbkCAARuKF2tuQMwsr6kJp25A0HlF8FPibkAuQOngFAdvQKn3Mq9FJ29A2Wb10wNeb0Cx5RrinmZvQHQy4I4poG9Ar5C0jEHmb0CvmW/nxhNwQGEM/59fM3BAEfrYJidbcEAWq+yPP9RwQFmBfyeP4nBASBXzqwn4cEBcGJiFHhRxQAcKWee1U3FAMPiQUeNycUAhQ1nx84NxQN9IcrmmsnNAEukhczlxdEBrsZRh5Y90QNbxP5soK3ZAabFFQLQ1d0Di3gMW0XR4QA==
+</data>
+      </mzArrayBinary>
+      <intenArrayBinary>
+        <data precision="64" endian="little" length="173">q6qqqqqqNkAAAAAAAABkQAAAAAAAAE1AVVVVVVUVb0D///////80QKqqqqqqal1AVlVVVVVVFUBVVVVVVdVBQAAAAAAAAENAVlVVVVVNhECqqqqqqqoiQKuqqqqqqk1AAAAAAAAAOkBVVVVVVVUlQKqqqqqqqjRAq6qqqqoqSUCrqqqqqipCQAAAAAAAACJAq6qqqqqqNECqqqqqqmp/QFRVVVVVVUxAVlVVVVXVYEBVVVVVVdVAQFVVVVVVlVlAqqqqqqqqNECrqqqqqupSQP///////x9A////////F0BWVVVVVVVNQKmqqqqqKmlAAAAAAAAAGED//////39MQKuqqqqqqkBAqqqqqqoqQkD///////8jQKqqqqqqqiJAqqqqqqpqYUCrqqqqqqoaQKuqqqqqqjRAVlVVVVVBlUAAAAAAAAAzQP7/////U5NAAAAAAACAXEBVVVVVVVVBQFdVVVVV1UxA////////KUBUVVVVVbViQKqqqqqqqjBAVVVVVVXVREAAAAAAAAAmQKuqqqqqqjhA////////D0BVVVVVVVVDQFZVVVVVVSVAVVVVVVVVN0AAAAAAAAAyQFVVVVVVVSVAAAAAAAAARkBVVVVVVRVRQP//////t6JAVFVVVVVVQUBUVVVVVTVqQFVVVVVV1V5AVVVVVVVVKUBWVVVVVRVXQFZVVVVVVSFAqqqqqqoqTkBUVVVVVVUjQP///////z9AVVVVVVVVKUCqqqqqqqpAQFZVVVVVVT9AAAAAAAAAHECrqqqqqqoeQAAAAAAAgFFAq6qqqqqqFkCrqqqqqqpCQFVVVVVVVTFAVVVVVVVVIUBVVVVVVVUjQKqqqqqqqjhA////////D0AAAAAAAABPQP///////yFA/v//////LUBVVVVVVVUwQFVVVVVVZX1AAAAAAAAAPUBVVVVVVZVfQFVVVVVVVUdAVlVVVVVVPkBVVVVVVVUlQAAAAAAAADZAVVVVVVVVQEBVVVVVVVUlQAAAAAAAADRAVVVVVVVVNECqqqqqqipEQP//////f0JAq6qqqqqqEkAAAAAAAAAQQFZVVVVVFVFAAAAAAAAATECqqqqqqqoaQKqqqqqqqjBAVVVVVVVVJUCrqqqqqqouQKqqqqqqqjNAq6qqqqqqQEBVVVVVVVUnQKqqqqqqqjhAqqqqqqqqJEAAAAAAAAAoQKuqqqqqqhpAAAAAAAAAOEBVVVVVVVUhQP///////0BAq6qqqqqqJEABAAAAAABJQKuqqqqqqh5AAAAAAAAASECrqqqqqipEQFZVVVVVVSVAq6qqqqqqEkCqqqqqqqowQFVVVVVVVSFA////////I0CrqqqqqqogQKuqqqqqKldAVlVVVVVVI0CrqqqqqqosQAAAAAAAACpAAAAAAAAAFEAAAAAAAIBBQKmqqqqqqixAVlVVVVVVFUD///////8lQFZVVVVVVSVAVVVVVVVVL0CqqqqqqqoSQAEAAAAAADhAqqqqqqqqM0AAAAAAAAAYQKqqqqqqqh5AVlVVVVVVPkAAAAAAAAAgQFRVVVVVVSNAVVVVVVVVL0BVVVVVVVUdQFVVVVVVVSFAVlVVVVVVFUD///////8PQP///////w9AqqqqqqqqHkCrqqqqqqoyQFRVVVVVVS9AAAAAAAAAJED///////81QAAAAAAAAEBAqqqqqqqqHkBVVVVVVVUhQKuqqqqqqhJAq6qqqqqqFkAAAAAAAAAYQFVVVVVVVSFAVFVVVVXVSUCrqqqqqqoeQFZVVVVVVTxA////////M0BVVVVVVdVBQFVVVVVVVSFA////////J0Cqqqqqqqo7QA==
+</data>
+      </intenArrayBinary>
+    </spectrum>
+  </spectrumList>
+</mzData>
