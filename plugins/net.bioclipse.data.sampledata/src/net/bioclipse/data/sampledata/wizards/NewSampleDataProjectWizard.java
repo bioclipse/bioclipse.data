@@ -22,6 +22,8 @@ import net.bioclipse.data.sampledata.Activator;
 import net.bioclipse.data.sampledata.CopyTools;
 import net.bioclipse.data.sampledata.DummyProgressMonitor;
 
+import org.apache.log4j.Logger;
+
 import org.eclipse.core.resources.IContainer;
 import org.eclipse.core.resources.IFolder;
 import org.eclipse.core.resources.IProject;
@@ -62,6 +64,10 @@ public class NewSampleDataProjectWizard extends Wizard implements INewWizard {
 	private IWorkbench workbench;
 	private IStructuredSelection selection;
 
+	private static final Logger logger = 
+	    Logger.getLogger(NewSampleDataProjectWizard.class);
+	
+	
 	public NewSampleDataProjectWizard() {
 		super();
 //		setDefaultPageImageDescriptor();
@@ -174,10 +180,10 @@ public class NewSampleDataProjectWizard extends Wizard implements INewWizard {
 					try {
 						installFolder(folder, project);
 					} catch (BioclipseException e) {
-						System.out.println("Could not copy folder: " + 
+						logger.error("Could not copy folder: " + 
 								folder.getName());
 					} catch (IOException e) {
-						System.out.println("Could not read folder: " + 
+					    logger.error("Could not read folder: " + 
 								folder.getName());
 					}
 				}
@@ -227,9 +233,11 @@ public class NewSampleDataProjectWizard extends Wizard implements INewWizard {
 		File folderFile=new File(folderURL.getFile());
 		File destinationFile=new File(project.getLocation().toOSString()+ File.separator + folder.getName());
 
-		System.out.println("Copying folder: " + folderURL.getFile() + " into " 
+		if (logger.isDebugEnabled()) {
+		    logger.debug("Copying folder: " + folderURL.getFile() + " into " 
 				+ project.getLocation().toOSString());
-
+		}
+		
 		//Create folder
 		if (destinationFile.exists()){
 			//TODO: This should not be possible

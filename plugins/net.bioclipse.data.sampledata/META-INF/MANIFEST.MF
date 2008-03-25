@@ -14,3 +14,4 @@ Require-Bundle: org.eclipse.ui,
  net.bioclipse.ui,
  net.bioclipse.logging
 Eclipse-LazyStart: true
+Import-Package: org.apache.log4j

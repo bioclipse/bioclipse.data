@@ -18,6 +18,8 @@ import java.util.ArrayList;
 
 import net.bioclipse.data.sampledata.Activator;
 
+import org.apache.log4j.Logger;
+
 import org.eclipse.core.runtime.FileLocator;
 import org.eclipse.core.runtime.IConfigurationElement;
 import org.eclipse.core.runtime.IExtension;
@@ -57,8 +59,12 @@ public class SelectDataFoldersPage extends WizardPage {
 	private Text text;
 
 	//Store folders here
-	private ArrayList<InstallableFolder> folders=new ArrayList<InstallableFolder>();
+	private ArrayList<InstallableFolder> folders = 
+	    new ArrayList<InstallableFolder>();
 
+	private static final Logger logger = 
+	    Logger.getLogger(SelectDataFoldersPage.class);
+	
 	public ArrayList<InstallableFolder> getFolders(){
 		return folders;
 	}
@@ -255,8 +261,7 @@ public class SelectDataFoldersPage extends WizardPage {
 		IExtensionRegistry registry = Platform.getExtensionRegistry();
 
 		if (registry == null) { // for example, when we are running the tests
-			// TODO: Change to logging
-			System.out.println("Registry does not exist. If tests are running, "
+			logger.warn("Registry does not exist. If tests are running, "
 					+ "this is in order.");
 			return null;             // nothing we can do anyway
 		}
