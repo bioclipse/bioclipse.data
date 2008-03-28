@@ -23,6 +23,7 @@ import net.bioclipse.data.sampledata.CopyTools;
 import net.bioclipse.data.sampledata.DummyProgressMonitor;
 
 import org.apache.log4j.Logger;
+import net.bioclipse.core.util.LogUtils;
 
 import org.eclipse.core.resources.IContainer;
 import org.eclipse.core.resources.IFolder;
@@ -120,7 +121,7 @@ public class NewSampleDataProjectWizard extends Wizard implements INewWizard {
 		}
 		catch(InvocationTargetException x)
 		{
-			x.printStackTrace();
+			LogUtils.debugTrace(logger, x);
 			return false;
 		}
 		catch(InterruptedException x)
@@ -203,7 +204,7 @@ public class NewSampleDataProjectWizard extends Wizard implements INewWizard {
 		}
 		catch(CoreException x)
 		{
-			x.printStackTrace();
+			LogUtils.debugTrace(logger, x);
 		}
 		finally
 		{
@@ -269,7 +270,7 @@ public class NewSampleDataProjectWizard extends Wizard implements INewWizard {
 				folder.create(false,true,monitor);
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
+			LogUtils.debugTrace(logger, e);
 		}
 	}
 
