@@ -18,45 +18,45 @@ package net.bioclipse.data.sampledata.wizards;
  */
 public class InstallableFolder {
 
-	private String name;
-	private String description;
-	private String location;
-	
-	//Should this be installed?
-	private boolean checked;
+    private String name;
+    private String description;
+    private String location;
+    
+    //Should this be installed?
+    private boolean checked;
 
-	public InstallableFolder(String name, String description, String location) {
-		this.name = name;
-		this.description = description;
-		this.location = location;
-	}
+    public InstallableFolder(String name, String description, String location) {
+        this.name = name;
+        this.description = description;
+        this.location = location;
+    }
 
-	public boolean getChecked() {
-		return checked;
-	}
+    public boolean getChecked() {
+        return checked;
+    }
 
-	public void setChecked(boolean checked) {
-		this.checked = checked;
-	}
-	
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public String getDescription() {
-		return description;
-	}
-	public void setDescription(String description) {
-		this.description = description;
-	}
-	public String getLocation() {
-		return location;
-	}
-	public void setLocation(String location) {
-		this.location = location;
-	}
-	
-	
+    public void setChecked(boolean checked) {
+        this.checked = checked;
+    }
+    
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getDescription() {
+        return description;
+    }
+    public void setDescription(String description) {
+        this.description = description;
+    }
+    public String getLocation() {
+        return location;
+    }
+    public void setLocation(String location) {
+        this.location = location;
+    }
+    
+    
 }

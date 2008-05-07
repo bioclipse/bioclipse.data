@@ -4,10 +4,10 @@
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * www.eclipse.org—epl-v10.html <http://www.eclipse.org/legal/epl-v10.html>
- * 
+ *
  * Contributors:
  *     Ola Spjuth - initial API and implementation
- *     
+ *
  ******************************************************************************/
 package net.bioclipse.data.sampledata.wizards;
 
@@ -59,219 +59,219 @@ import sun.reflect.generics.scope.DummyScope;
 public class NewSampleDataProjectWizard extends Wizard implements INewWizard {
 
 
-	private WizardNewProjectCreationPage fFirstPage;
-	private SelectDataFoldersPage folPage;
+    private WizardNewProjectCreationPage fFirstPage;
+    private SelectDataFoldersPage folPage;
 
-	private IWorkbench workbench;
-	private IStructuredSelection selection;
+    private IWorkbench workbench;
+    private IStructuredSelection selection;
 
-	private static final Logger logger = 
-	    Logger.getLogger(NewSampleDataProjectWizard.class);
-	
-	
-	public NewSampleDataProjectWizard() {
-		super();
-//		setDefaultPageImageDescriptor();
-		setWindowTitle("New Sample Data project"); 
-
-		fFirstPage = new WizardNewProjectCreationPage("New Sample Data project");
-		folPage=new SelectDataFoldersPage();
-
-	}
-
-	/**
-	 * Add WizardNewProjectCreationPage from IDE
-	 */
-	public void addPages() {
-
-		fFirstPage.setTitle("New Sample Data project");
-		fFirstPage.setDescription("Create a new Project with " +
-		"sample data installed");
-//		fFirstPage.setImageDescriptor(ImageDescriptor.createFromFile(getClass(),
-//		"/org/ananas/xm/eclipse/resources/newproject58.gif"));        
-		addPage(fFirstPage);
-
-		addPage(folPage);
-
-	}
+    private static final Logger logger =
+        Logger.getLogger(NewSampleDataProjectWizard.class);
 
 
-	/**
-	 * Create project and install data
-	 */
-	@Override
-	public boolean performFinish() {
+    public NewSampleDataProjectWizard() {
+        super();
+//        setDefaultPageImageDescriptor();
+        setWindowTitle("New Sample Data project");
 
-		try
-		{
-			WorkspaceModifyOperation op =
-				new WorkspaceModifyOperation()
-			{
+        fFirstPage = new WizardNewProjectCreationPage("New Sample Data project");
+        folPage=new SelectDataFoldersPage();
 
-				@Override
-				protected void execute(IProgressMonitor monitor)
-				throws CoreException, InvocationTargetException,
-				InterruptedException {
-					createProject(monitor != null ?
-							monitor : new NullProgressMonitor());
+    }
 
-				}
-			};
-			getContainer().run(false,true,op);
-		}
-		catch(InvocationTargetException x)
-		{
-			LogUtils.debugTrace(logger, x);
-			return false;
-		}
-		catch(InterruptedException x)
-		{
-			return false;
-		}
-		return true;     }
+    /**
+     * Add WizardNewProjectCreationPage from IDE
+     */
+    public void addPages() {
 
-	/**
-	 * Init wizard
-	 */
-	public void init(IWorkbench workbench, IStructuredSelection selection) {
-		this.workbench = workbench;
-		this.selection = selection;
-		setWindowTitle("New Sample Data Project");
-//		setDefaultPageImageDescriptor(TBC);
-	}
+        fFirstPage.setTitle("New Sample Data project");
+        fFirstPage.setDescription("Create a new Project with " +
+        "sample data installed");
+//        fFirstPage.setImageDescriptor(ImageDescriptor.createFromFile(getClass(),
+//        "/org/ananas/xm/eclipse/resources/newproject58.gif"));
+        addPage(fFirstPage);
+
+        addPage(folPage);
+
+    }
 
 
-	/**
-	 * Create project and add required natures, builders, folders, and files
-	 * @param monitor
-	 */
-	protected void createProject(IProgressMonitor monitor)
-	{
-		monitor.beginTask("Creating project",50);
-		try
-		{
+    /**
+     * Create project and install data
+     */
+    @Override
+    public boolean performFinish() {
 
-			//Get WS root
-			IWorkspaceRoot root = ResourcesPlugin.getWorkspace().getRoot();
-			monitor.subTask("Creating directories");
+        try
+        {
+            WorkspaceModifyOperation op =
+                new WorkspaceModifyOperation()
+            {
 
-			//Create the project
-			IProject project = root.getProject(fFirstPage.getProjectName());
+                @Override
+                protected void execute(IProgressMonitor monitor)
+                throws CoreException, InvocationTargetException,
+                InterruptedException {
+                    createProject(monitor != null ?
+                            monitor : new NullProgressMonitor());
 
-			//Add natures and builders
-			IProjectDescription description = ResourcesPlugin.getWorkspace()
-			.newProjectDescription(project.getName());
-			if(!Platform.getLocation().equals(fFirstPage.getLocationPath()))
-				description.setLocation(fFirstPage.getLocationPath());
-			project.create(description,monitor);
+                }
+            };
+            getContainer().run(false,true,op);
+        }
+        catch(InvocationTargetException x)
+        {
+            LogUtils.debugTrace(logger, x);
+            return false;
+        }
+        catch(InterruptedException x)
+        {
+            return false;
+        }
+        return true;     }
 
-			monitor.worked(10);
+    /**
+     * Init wizard
+     */
+    public void init(IWorkbench workbench, IStructuredSelection selection) {
+        this.workbench = workbench;
+        this.selection = selection;
+        setWindowTitle("New Sample Data Project");
+//        setDefaultPageImageDescriptor(TBC);
+    }
 
-			//Open project
-			project.open(monitor);
 
-			monitor.worked(10);
+    /**
+     * Create project and add required natures, builders, folders, and files
+     * @param monitor
+     */
+    protected void createProject(IProgressMonitor monitor)
+    {
+        monitor.beginTask("Creating project",50);
+        try
+        {
 
-			//Copy folders into workspace
-			ArrayList<InstallableFolder> folders=folPage.getFolders();
-			for (InstallableFolder folder : folders){
+            //Get WS root
+            IWorkspaceRoot root = ResourcesPlugin.getWorkspace().getRoot();
+            monitor.subTask("Creating directories");
 
-				if (folder.getChecked()==true){
+            //Create the project
+            IProject project = root.getProject(fFirstPage.getProjectName());
 
-					try {
-						installFolder(folder, project);
-					} catch (BioclipseException e) {
-						logger.error("Could not copy folder: " + 
-								folder.getName());
-					} catch (IOException e) {
-					    logger.error("Could not read folder: " + 
-								folder.getName());
-					}
-				}
-			}
+            //Add natures and builders
+            IProjectDescription description = ResourcesPlugin.getWorkspace()
+            .newProjectDescription(project.getName());
+            if(!Platform.getLocation().equals(fFirstPage.getLocationPath()))
+                description.setLocation(fFirstPage.getLocationPath());
+            project.create(description,monitor);
 
-			/*
-			 * Should use status line progress monitor, but how get viewSite?
-			 * 
-			IActionBars actionBars = getViewSite().getActionBars();
-			IStatusLineManager statusLine = actionBars.getStatusLineManager();
-			IProgressMonitor progressMonitor = statusLine.getProgressMonitor(); 
-			 */
+            monitor.worked(10);
 
-			//Refresh project
-			project.refreshLocal(2, new DummyProgressMonitor());
+            //Open project
+            project.open(monitor);
 
-		}
-		catch(CoreException x)
-		{
-			LogUtils.debugTrace(logger, x);
-		}
-		finally
-		{
-			monitor.done();
-		}
-	}	
+            monitor.worked(10);
 
-	/**
-	 * Copy the folder into the project root
-	 * @param folder
-	 * @param project
-	 * @throws BioclipseException
-	 * @throws IOException 
-	 */
-	private void installFolder(InstallableFolder folder, IProject project) 
-	throws BioclipseException, IOException {
+            //Copy folders into workspace
+            ArrayList<InstallableFolder> folders=folPage.getFolders();
+            for (InstallableFolder folder : folders){
 
-		URL url=null;
-		URL folderURL=null;
-		try{
-			url=Activator.getDefault().getBundle().getEntry("/" + folder.getLocation());
-			folderURL=FileLocator.toFileURL(url);
-		}catch (Exception e){
-			throw new BioclipseException(e.getMessage());
-		}
+                if (folder.getChecked()==true){
 
-		File folderFile=new File(folderURL.getFile());
-		File destinationFile=new File(project.getLocation().toOSString()+ File.separator + folder.getName());
+                    try {
+                        installFolder(folder, project);
+                    } catch (BioclipseException e) {
+                        logger.error("Could not copy folder: " +
+                                folder.getName());
+                    } catch (IOException e) {
+                        logger.error("Could not read folder: " +
+                                folder.getName());
+                    }
+                }
+            }
 
-		if (logger.isDebugEnabled()) {
-		    logger.debug("Copying folder: " + folderURL.getFile() + " into " 
-				+ project.getLocation().toOSString());
-		}
-		
-		//Create folder
-		if (destinationFile.exists()){
-			//TODO: This should not be possible
-		}else {
-			if (destinationFile.mkdir()==false)
-				throw new IOException("Could not make directory: " + folder.getName());
-		}
+            /*
+             * Should use status line progress monitor, but how get viewSite?
+             *
+            IActionBars actionBars = getViewSite().getActionBars();
+            IStatusLineManager statusLine = actionBars.getStatusLineManager();
+            IProgressMonitor progressMonitor = statusLine.getProgressMonitor();
+             */
 
-		CopyTools.copy(destinationFile, folderFile);
-	}
+            //Refresh project
+            project.refreshLocal(2, new DummyProgressMonitor());
 
-	/**
-	 * Create the folder in the closest parent which is a folder
-	 * @param folder
-	 * @param monitor
-	 */
-	private void createFolderHelper (IFolder folder, IProgressMonitor monitor)
-	{
-		try {
-			if(!folder.exists()) {
-				IContainer parent = folder.getParent();
+        }
+        catch(CoreException x)
+        {
+            LogUtils.debugTrace(logger, x);
+        }
+        finally
+        {
+            monitor.done();
+        }
+    }
 
-				if(parent instanceof IFolder
-						&& (!((IFolder)parent).exists())) {
+    /**
+     * Copy the folder into the project root
+     * @param folder
+     * @param project
+     * @throws BioclipseException
+     * @throws IOException
+     */
+    private void installFolder(InstallableFolder folder, IProject project)
+    throws BioclipseException, IOException {
 
-					createFolderHelper((IFolder)parent, monitor);
-				}
+        URL url=null;
+        URL folderURL=null;
+        try{
+            url=Activator.getDefault().getBundle().getEntry("/" + folder.getLocation());
+            folderURL=FileLocator.toFileURL(url);
+        }catch (Exception e){
+            throw new BioclipseException(e.getMessage());
+        }
 
-				folder.create(false,true,monitor);
-			}
-		} catch (Exception e) {
-			LogUtils.debugTrace(logger, e);
-		}
-	}
+        File folderFile=new File(folderURL.getFile());
+        File destinationFile=new File(project.getLocation().toOSString()+ File.separator + folder.getName());
+
+        if (logger.isDebugEnabled()) {
+            logger.debug("Copying folder: " + folderURL.getFile() + " into "
+                + project.getLocation().toOSString());
+        }
+
+        //Create folder
+        if (destinationFile.exists()){
+            //TODO: This should not be possible
+        }else {
+            if (destinationFile.mkdir()==false)
+                throw new IOException("Could not make directory: " + folder.getName());
+        }
+
+        CopyTools.copy(destinationFile, folderFile);
+    }
+
+    /**
+     * Create the folder in the closest parent which is a folder
+     * @param folder
+     * @param monitor
+     */
+    private void createFolderHelper (IFolder folder, IProgressMonitor monitor)
+    {
+        try {
+            if(!folder.exists()) {
+                IContainer parent = folder.getParent();
+
+                if(parent instanceof IFolder
+                        && (!((IFolder)parent).exists())) {
+
+                    createFolderHelper((IFolder)parent, monitor);
+                }
+
+                folder.create(false,true,monitor);
+            }
+        } catch (Exception e) {
+            LogUtils.debugTrace(logger, e);
+        }
+    }
 
 }
