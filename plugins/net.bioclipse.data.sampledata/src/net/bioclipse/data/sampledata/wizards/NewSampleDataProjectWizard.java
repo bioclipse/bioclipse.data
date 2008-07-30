@@ -176,7 +176,7 @@ public class NewSampleDataProjectWizard extends Wizard implements INewWizard {
             ArrayList<InstallableFolder> folders=folPage.getFolders();
             for (InstallableFolder folder : folders){
 
-                if (folder.getChecked()==true){
+                if (folder.isChecked()){
 
                     try {
                         installFolder(folder, project);

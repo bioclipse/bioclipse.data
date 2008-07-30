@@ -236,7 +236,7 @@ public class SelectDataFoldersPage extends WizardPage {
             setErrorMessage("Please select at least one folder");
         }
         for (InstallableFolder folder : folders){
-            if (folder.getChecked()==true){
+            if (folder.isChecked()==true){
                 setErrorMessage(null);
                 setPageComplete(true);
                 getWizard().getContainer().updateButtons();

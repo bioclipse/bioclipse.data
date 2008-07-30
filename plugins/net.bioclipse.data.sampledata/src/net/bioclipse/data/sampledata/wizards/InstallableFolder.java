@@ -31,7 +31,7 @@ public class InstallableFolder {
         this.location = location;
     }
 
-    public boolean getChecked() {
+    public boolean isChecked() {
         return checked;
     }
 
