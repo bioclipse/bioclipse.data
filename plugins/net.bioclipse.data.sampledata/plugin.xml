@@ -39,19 +39,14 @@
       	location="data/AminoAcids"
       />
       <folder 
-      	name="JavaScripts"
+      	name="Javascripts"
       	description="Sample scripts in Javascript"
-      	location="data/JavaScript"
+      	location="data/JavaScripts"
       />
       <folder 
-      	name="Jmol Scripts"
-      	description="Sample scripts in Javascript"
-      	location="data/jmolScripts"
-      />
-      <folder 
-      	name="misc"
-      	description="Some misc sample files"
-      	location="data/misc"
+      	name="SDF"
+      	description="Sampel SDFiles"
+      	location="data/SDF"
       />
       <folder 
       	name="Nucleobases"
@@ -62,21 +57,6 @@
       	name="PDB"
       	description="Sample files in PDB format"
       	location="data/pdb"
-      />
-      <folder 
-      	name="reactions"
-      	description="Some chemical reactions"
-      	location="data/reactions"
-      />
-      <folder 
-      	name="sequences"
-      	description="Sample sequences"
-      	location="data/sequences"
-      />
-      <folder 
-      	name="spectra"
-      	description="Some spectra files"
-      	location="data/spectra"
       />
 </extension>
 
