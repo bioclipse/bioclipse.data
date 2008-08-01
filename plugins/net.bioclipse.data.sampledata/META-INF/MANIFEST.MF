@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Sampledata Plug-in
 Bundle-SymbolicName: net.bioclipse.data.sampledata;singleton:=true
-Bundle-Version: 1.3.1
+Bundle-Version: 2.0.0.alpha01
 Bundle-Activator: net.bioclipse.data.sampledata.Activator
 Bundle-Vendor: The Bioclispe Team
 Require-Bundle: org.eclipse.ui,
