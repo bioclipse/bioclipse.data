@@ -41,7 +41,7 @@
       <folder 
       	name="Javascripts"
       	description="Sample scripts in Javascript"
-      	location="data/JavaScripts"
+      	location="data/Javascripts"
       />
       <folder 
       	name="SDF"
