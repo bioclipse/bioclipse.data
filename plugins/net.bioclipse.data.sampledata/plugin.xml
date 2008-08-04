@@ -15,7 +15,7 @@
 	   project="true"
 	   class="net.bioclipse.data.sampledata.wizards.NewSampleDataProjectWizard"
 	   category="net.bioclipse.data"
-	   icon="icons/sample.gif">
+	   icon="icons/dbs_16.gif">
    	   <description>New QSAR Wizard</description>
 	   <selection class="org.eclipse.core.resources.IResource"/>
 	</wizard>
