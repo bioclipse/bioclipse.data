@@ -25,6 +25,7 @@ import net.bioclipse.data.sampledata.DummyProgressMonitor;
 import org.apache.log4j.Logger;
 import net.bioclipse.core.util.LogUtils;
 
+import org.eclipse.core.internal.resources.Project;
 import org.eclipse.core.resources.IContainer;
 import org.eclipse.core.resources.IFolder;
 import org.eclipse.core.resources.IProject;
@@ -75,6 +76,19 @@ public class NewSampleDataProjectWizard extends Wizard implements INewWizard {
         setWindowTitle("New Sample Data project");
 
         fFirstPage = new WizardNewProjectCreationPage("New Sample Data project");
+        boolean projectNamedSampleDataExists = false;
+        String sampleData = "Sample Data";
+        for ( IProject p : ResourcesPlugin.getWorkspace()
+                                          .getRoot()
+                                          .getProjects(
+                                              Project.INCLUDE_HIDDEN) ) {
+            if ( sampleData.equals( p.getName() ) ) {
+                projectNamedSampleDataExists = true;
+            }
+        }
+        if ( !projectNamedSampleDataExists ) {
+            fFirstPage.setInitialProjectName( sampleData );
+        }
         folPage=new SelectDataFoldersPage();
 
     }
