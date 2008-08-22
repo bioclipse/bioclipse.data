@@ -58,6 +58,16 @@
       	description="Sample files in PDB format"
       	location="data/pdb"
       />
+      <folder 
+      	name="Sequences"
+      	description="Sample sequences"
+      	location="data/sequences"
+      />
+      <folder 
+      	name="Spectra"
+      	description="Sample spectral files"
+      	location="data/spectra"
+      />
 </extension>
 
 </plugin>
