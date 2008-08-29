@@ -1,4 +1,4 @@
-<cml xmlns="http://www.xml-cml.org/schema">
+<cml xmlns="http://www.xmlcml.org/schema">
 <spectrum id="spectrum2" title="test peaks">
     <peakList>
         <peakGroup id="pg1" xMax="3040" xMin="2800">
