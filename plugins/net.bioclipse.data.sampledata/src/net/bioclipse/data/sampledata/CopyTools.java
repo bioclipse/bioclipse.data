@@ -7,20 +7,12 @@
  *
  *******************************************************************************/
 package net.bioclipse.data.sampledata;
-
 import java.io.IOException;
-
 import net.bioclipse.core.business.BioclipseException;
-
-
-
 public class CopyTools {
-
-
     /** Creates new Copy */
     private CopyTools() {
     }
-
     public static void copy(java.io.File destination, java.io.File source) throws BioclipseException {
         if (source.isDirectory()) {
             if (!destination.isDirectory()) {
@@ -34,7 +26,6 @@ public class CopyTools {
             copyFile(destination,source);
         }
     }
-    
     protected static void copyDirectory(java.io.File destination, java.io.File source) throws BioclipseException {
         java.io.File[] list=source.listFiles();
         for (int i=0;i<list.length;i++) {
@@ -47,17 +38,14 @@ public class CopyTools {
             }
         }
     }
-    
     protected static void copyFile(java.io.File destination, java.io.File source) throws BioclipseException {
     	java.io.FileInputStream inStream = null;
     	java.io.FileOutputStream outStream = null;
     	try {
             inStream=new java.io.FileInputStream(source);
             outStream=new java.io.FileOutputStream(destination);
-
             int len;
             byte[] buf=new byte[2048];
-             
             while ((len=inStream.read(buf))!=-1) {
                 outStream.write(buf,0,len);
             }
@@ -65,12 +53,12 @@ public class CopyTools {
             throw new BioclipseException("Can't copy file "+source+" -> "+destination+": " + e.getMessage());
         } finally {
         	try {
-				inStream.close();
-	        	outStream.flush();
-	        	outStream.close();
-			} catch (IOException e) {
-				throw new RuntimeException( e );
-			}
+                                inStream.close();
+                        outStream.flush();
+                        outStream.close();
+                        } catch (IOException e) {
+                                throw new RuntimeException( e );
+                        }
         }
     }
 }
