@@ -10,28 +10,35 @@
  *     
  ******************************************************************************/
 package net.bioclipse.data.sampledata.wizards;
+
 /**
  * Hold a folder object to be installed. Initialized from EP.
  * @author ola
  *
  */
 public class InstallableFolder {
+
     private String name;
     private String description;
     private String location;
+    
     //Should this be installed?
     private boolean checked;
+
     public InstallableFolder(String name, String description, String location) {
         this.name = name;
         this.description = description;
         this.location = location;
     }
+
     public boolean isChecked() {
         return checked;
     }
+
     public void setChecked(boolean checked) {
         this.checked = checked;
     }
+    
     public String getName() {
         return name;
     }
@@ -50,4 +57,6 @@ public class InstallableFolder {
     public void setLocation(String location) {
         this.location = location;
     }
+    
+    
 }
