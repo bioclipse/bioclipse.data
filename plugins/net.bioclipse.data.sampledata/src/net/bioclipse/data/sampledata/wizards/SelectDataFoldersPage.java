@@ -280,8 +280,10 @@ public class SelectDataFoldersPage extends WizardPage {
                 String name=configelements[j].getAttribute("name");
                 String description=configelements[j].getAttribute("description");
                 String location=configelements[j].getAttribute("location");
+                
+                String pluginid=configelements[j].getNamespaceIdentifier();
 
-                InstallableFolder folder=new InstallableFolder(name, description, location);
+                InstallableFolder folder=new InstallableFolder(name, description, location, pluginid);
                 folder.setChecked(true);
                 folders.add(folder);
 

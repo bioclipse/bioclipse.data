@@ -21,11 +21,20 @@ public class InstallableFolder {
     private String name;
     private String description;
     private String location;
+    public String getPluginID() {
+		return pluginID;
+	}
+
+	public void setPluginID(String pluginID) {
+		this.pluginID = pluginID;
+	}
+	private String pluginID;
     
     //Should this be installed?
     private boolean checked;
 
-    public InstallableFolder(String name, String description, String location) {
+    public InstallableFolder(String name, String description, String location, String pluginID) {
+    	this.pluginID=pluginID;
         this.name = name;
         this.description = description;
         this.location = location;

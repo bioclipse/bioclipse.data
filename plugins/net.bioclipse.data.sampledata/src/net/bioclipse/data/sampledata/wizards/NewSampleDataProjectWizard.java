@@ -47,6 +47,7 @@ import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.actions.WorkspaceModifyOperation;
 import org.eclipse.ui.dialogs.WizardNewProjectCreationPage;
 import org.eclipse.ui.internal.Workbench;
+import org.osgi.framework.Bundle;
 
 import com.sun.org.apache.bcel.internal.generic.GETSTATIC;
 
@@ -239,8 +240,10 @@ public class NewSampleDataProjectWizard extends Wizard implements INewWizard {
         URL url=null;
         URL folderURL=null;
         try{
-            url=Activator.getDefault().getBundle().getEntry("/" + folder.getLocation());
-            folderURL=FileLocator.toFileURL(url);
+        	Bundle bun = Platform.getBundle(folder.getPluginID());
+        	URL urll = bun.getEntry("/" + folder.getLocation());
+//            url=Activator.getDefault().getBundle().getEntry("/" + folder.getLocation());
+            folderURL=FileLocator.toFileURL(urll);
         }catch (Exception e){
             throw new BioclipseException(e.getMessage());
         }
