@@ -2,13 +2,28 @@
 <?eclipse version="3.2"?>
 <plugin>
 
+   <extension
+      point = "org.eclipse.ui.newWizards">
+ 	<wizard
+	   id = "net.bioclipse.data.drugbank.wizards.NewDrugbankProjectWizard"
+	   name = "New Drugbank Data Project"
+	   project="true"
+	   class="net.bioclipse.data.wizards.NewDataProjectWizard"
+	   category="net.bioclipse.data"
+	   icon="icons/drug_icon.gif">
+   	   <description>Install a Project with sample data set</description>
+	   <selection class="org.eclipse.core.resources.IResource"/>
+	</wizard>
+</extension>
+
   <extension
       point="net.bioclipse.data.install">
       <folder 
       	name="DrugBank"
       	description="DrugBank database"
       	location="data/DrugBank"
-      />
+      	wizard="net.bioclipse.data.drugbank.wizards.NewDrugbankProjectWizard"
+  	    icon="icons/drug_icon.gif"/>
   </extension>
 
 </plugin>
