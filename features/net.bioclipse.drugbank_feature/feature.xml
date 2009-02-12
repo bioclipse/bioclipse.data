@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="net.bioclipse.drugbank_feature"
+      label="DrugBank Feature"
+      version="2.0.0.B20090123"
+      provider-name="The Bioclipse Team"
+      plugin="net.bioclipse.cdk.ui">
+
+   <description url="http://www.drugbank.ca/">
+      DrugBank Feature.
+   </description>
+
+   <copyright url="http://www.drugbank.ca/">
+      Copyright (c) 2006 DrugBank
+   </copyright>
+
+   <license url="http://www.drugbank.ca/">
+      &lt;p&gt;
+DrugBank is offered to the public as a freely available resource.
+Use and re-distribution of the data, in whole or in part, for
+commercial purposes requires explicit permission of the authors
+and explicit acknowledgment of the source material (DrugBank)
+and the 
+original publication (see below). We ask that users who download
+significant portions of the database cite the DrugBank paper
+in any 
+resulting publications.
+
+&lt;p&gt;
+Wishart DS et al., DrugBank: a comprehensive resource for in
+silico drug discovery and exploration. Nucleic Acids Res. 2006
+Jan 
+1;34(Database issue):D668-672, doi: &lt;a href=&quot;http://dx.doi.org/10.1093/nar/gkj067&quot;&gt;10.1093/nar/gkj067&lt;/a&gt;.
+   </license>
+
+   <url>
+      <update label="Bioclipse Update Site" url="http://update.bioclipse.net"/>
+      <discovery label="DrugBank Homepage" url="http://www.drugbank.ca/"/>
+   </url>
+
+   <requires>
+      <import feature="net.bioclipse_feature" version="2.0.0.B20090123"/>
+      <import feature="net.bioclipse.chemoinformatics_feature" version="2.0.0.B20090123"/>
+   </requires>
+
+   <plugin
+         id="net.bioclipse.data.drugbank"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
