@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Guanin</title>
+    <script src="../jmol/Jmol.js" type="text/javascript"></script>
+    <link href="../styles/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="header">
+      <img src="../images/header.png" alt="Header image" />
+    </div>
+    <div id="menu">
+      <div class="path">
+        <a href="./index_de.html" title="Zurück zum Index">Zurück zum Index</a>
+      </div>
+      <div class="index">
+        <a href="../name_index_de.html" title="Namensindex">Namensindex</a>&nbsp;|&nbsp;
+        <a href="../formula_index_de.html" title="Formelindex">Formelindex</a>
+      </div>
+    </div>
+    <div id="main">
+      <div id="molecule">
+        <div id="properties">
+          <h3>Eigenschaften</h3>
+          <ul>
+            <li>IUPAC Name: 2-Amino-3,7-dihydropurin-6-one</li>
+            <li>Formel: C<sub>5</sub>H<sub>5</sub>N<sub>5</sub>O</li>
+            <li>Molekülmasse: 151.1261 g/mol</li>
+            <li>Monoisotopisches Gewicht: 151.0494098 g/mol</li>
+            <li>Schmelzpunkt: > 300 &deg;C (573 K)</li>
+            <li>Synonym:
+              <ul>
+                <li>2-Amino-3,7-dihydropurin-6-one (<i>en</i>)</li>
+              </ul>
+            </li>
+            <li>Abkürzung:
+              <ul>
+                <li>G</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div id="structure">
+          <h3>Struktur</h3>
+          <script type="text/javascript">
+            jmolInitialize("../jmol", window.location.protocol == "file:");
+            jmolSetAppletColor("white");
+            jmolApplet(300, "load guanine.cml");
+          </script>
+        </div>
+        <div id="download">
+          <h3>Struktur laden</h3>
+          <ul>
+            <li>Im CML Format&nbsp;<a href="guanine.cml" title="CML"><img src="../images/download.png" alt="Download cml file" /></a></li>
+            <li>Im MOL Format&nbsp;<a href="guanine.mol" title="MOL"><img src="../images/download.png" alt="Download mol file" /></a></li>
+          </ul>
+        </div>
+        <div id="inchi">
+          <h3>InChI</h3>
+          <span class="inchi">InChI=1/C5H5N5O/c6-5-9-3-2(4(11)10-5)7-1-8-3/h1H,(H4,6,7,8,9,10,11)</span>
+        </div>
+        <div id="smiles">
+          <h3>SMILES</h3>
+          <span class="smiles">n1c[nH]c2c1c([nH]c(n2)N)=O</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

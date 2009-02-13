@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Methane</title>
+    <script src="../jmol/Jmol.js" type="text/javascript"></script>
+    <link href="../styles/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="header">
+      <img src="../images/header.png" alt="Header image" />
+    </div>
+    <div id="menu">
+      <div class="path">
+        <a href="./index_fr.html" title="Retour à l'index">Retour à l'index</a>
+      </div>
+      <div class="index">
+        <a href="../name_index_fr.html" title="Index des noms">Index des noms</a>&nbsp;|&nbsp;
+        <a href="../formula_index_fr.html" title="Index des formules">Index des formules</a>
+      </div>
+    </div>
+    <div id="main">
+      <div id="molecule">
+        <div id="properties">
+          <h3>Propriétés</h3>
+          <ul>
+            <li>Nom IUPAC : Methane</li>
+            <li>Formule brute : CH<sub>4</sub></li>
+            <li>Masse moléculaire : 16.0425 g/mol</li>
+            <li>Masse monoisotopique : 16.0313001 g/mol</li>
+            <li>Point de fusion : -183 &deg;C (90 K)</li>
+            <li>Point d'ébullition : -161 &deg;C (112 K)</li>
+          </ul>
+        </div>
+        <div id="structure">
+          <h3>Structure</h3>
+          <script type="text/javascript">
+            jmolInitialize("../jmol", window.location.protocol == "file:");
+            jmolSetAppletColor("white");
+            jmolApplet(300, "load methane.cml");
+          </script>
+        </div>
+        <div id="download">
+          <h3>Téléchargement de la structure</h3>
+          <ul>
+            <li>Au format CML&nbsp;<a href="methane.cml" title="CML"><img src="../images/download.png" alt="Download cml file" /></a></li>
+            <li>Au format MOL&nbsp;<a href="methane.mol" title="MOL"><img src="../images/download.png" alt="Download mol file" /></a></li>
+          </ul>
+        </div>
+        <div id="inchi">
+          <h3>InChI</h3>
+          <span class="inchi">InChI=1/CH4/h1H4</span>
+        </div>
+        <div id="smiles">
+          <h3>SMILES</h3>
+          <span class="smiles">C</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
