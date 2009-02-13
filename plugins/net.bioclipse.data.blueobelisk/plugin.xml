@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension
+      point = "org.eclipse.ui.newWizards">
+ 	<wizard
+	   id = "net.bioclipse.data.drugbank.wizards.NewBlueObeliskDataProjectWizard"
+	   name = "New Drugbank Data Project"
+	   project="true"
+	   class="net.bioclipse.data.wizards.NewDataProjectWizard"
+	   category="net.bioclipse.data"
+  	    icon="icons/bologo16.png">
+   	   <description>Install a Project with sample data set</description>
+	   <selection class="org.eclipse.core.resources.IResource"/>
+	</wizard>
+</extension>
+
+  <extension
+      point="net.bioclipse.data.install">
+      <folder 
+      	name="Blue Obelisk Chemical Structure Repository"
+      	description="An open chemical structure repository provided by the Blue Obelisk Movement"
+      	location="data"
+      	wizard="net.bioclipse.data.drugbank.wizards.NewBlueObeliskDataProjectWizard"
+  	    icon="icons/bologo16.png"/>
+  </extension>
+
+</plugin>
