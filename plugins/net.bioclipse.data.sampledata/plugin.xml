@@ -44,7 +44,7 @@
       	description="Sample files in PDB format"
       	location="data/pdb"
       />
-      <folder 
+      <!--folder 
         name="spectra"
         description="Sample spectral data"
         location="data/spectra"
@@ -53,7 +53,7 @@
         name="specmol"
         description="Sample assigned spectral data"
         location="data/specmol"
-      />
+      /-->
 </extension>
 
 </plugin>
