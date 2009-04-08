@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Sample data
+Bundle-Name: Bioclipse Sample Data
 Bundle-SymbolicName: net.bioclipse.data.sampledata;singleton:=true
 Bundle-Version: 2.0.0.B20090407
 Bundle-Activator: net.bioclipse.data.sampledata.Activator
