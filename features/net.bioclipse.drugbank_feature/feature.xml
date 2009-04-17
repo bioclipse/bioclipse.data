@@ -38,11 +38,6 @@ Jan
       <discovery label="DrugBank Homepage" url="http://www.drugbank.ca/"/>
    </url>
 
-   <requires>
-      <import feature="net.bioclipse.chemoinformatics_feature" version="2.0.0.B20090417" match="greaterOrEqual"/>
-      <import feature="net.bioclipse.core_feature" version="2.0.0.B20090417" match="greaterOrEqual"/>
-   </requires>
-
    <plugin
          id="net.bioclipse.data.drugbank"
          download-size="0"
