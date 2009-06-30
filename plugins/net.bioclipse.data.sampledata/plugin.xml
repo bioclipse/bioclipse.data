@@ -29,11 +29,11 @@
       	description="Sample SDFiles"
       	location="data/SDF"
       />
-      <folder 
+      <!--folder 
       	name="SMILES"
       	description="Sample SMILES files"
       	location="data/SMILES"
-      />
+      /-->
       <folder 
       	name="Nucleobases"
       	description="Some sample nucleobases"
