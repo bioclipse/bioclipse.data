@@ -27,8 +27,8 @@ The Eclipse Public License accompanies this distribution, and is available at ht
 
    <plugin
          id="net.bioclipse.data.blueobelisk"
-         download-size="0"
-         install-size="0"
+         download-size="792"
+         install-size="11000"
          version="0.0.0"
          unpack="false"/>
 
