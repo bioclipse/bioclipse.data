@@ -1,0 +1,201 @@
+ID   GAL4_YEAST     STANDARD;      PRT;   881 AA.
+AC   P04386;
+DT   20-MAR-1987, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 2.
+DT   02-MAY-2006, entry version 76.
+DE   Regulatory protein GAL4.
+GN   Name=GAL4; OrderedLocusNames=YPL248C;
+OS   Saccharomyces cerevisiae (Baker's yeast).
+OC   Eukaryota; Fungi; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Saccharomycetaceae; Saccharomyces.
+OX   NCBI_TaxID=4932;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   MEDLINE=84141879; PubMed=6366516;
+RA   Laughon A., Gesteland R.F.;
+RT   "Primary structure of the Saccharomyces cerevisiae GAL4 gene.";
+RL   Mol. Cell. Biol. 4:260-267(1984).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=S288c / AB972;
+RX   MEDLINE=97313271; PubMed=9169875;
+RA   Bussey H., Storms R.K., Ahmed A., Albermann K., Allen E., Ansorge W.,
+RA   Araujo R., Aparicio A., Barrell B.G., Badcock K., Benes V.,
+RA   Botstein D., Bowman S., Brueckner M., Carpenter J., Cherry J.M.,
+RA   Chung E., Churcher C.M., Coster F., Davis K., Davis R.W.,
+RA   Dietrich F.S., Delius H., DiPaolo T., Dubois E., Duesterhoeft A.,
+RA   Duncan M., Floeth M., Fortin N., Friesen J.D., Fritz C., Goffeau A.,
+RA   Hall J., Hebling U., Heumann K., Hilbert H., Hillier L.W.,
+RA   Hunicke-Smith S., Hyman R.W., Johnston M., Kalman S., Kleine K.,
+RA   Komp C., Kurdi O., Lashkari D., Lew H., Lin A., Lin D., Louis E.J.,
+RA   Marathe R., Messenguy F., Mewes H.-W., Mirtipati S., Moestl D.,
+RA   Mueller-Auer S., Namath A., Nentwich U., Oefner P., Pearson D.,
+RA   Petel F.X., Pohl T.M., Purnelle B., Rajandream M.A., Rechmann S.,
+RA   Rieger M., Riles L., Roberts D., Schaefer M., Scharfe M., Scherens B.,
+RA   Schramm S., Schroeder M., Sdicu A.-M., Tettelin H., Urrestarazu L.A.,
+RA   Ushinsky S., Vierendeels F., Vissers S., Voss H., Walsh S.V.,
+RA   Wambutt R., Wang Y., Wedler E., Wedler H., Winnett E., Zhong W.-W.,
+RA   Zollner A., Vo D.H., Hani J.;
+RT   "The nucleotide sequence of Saccharomyces cerevisiae chromosome XVI.";
+RL   Nature 387:103-105(1997).
+RN   [3]
+RP   MUTAGENESIS, AND ZINC REQUIREMENT.
+RX   MEDLINE=87258276; PubMed=3299106; DOI=10.1038/328353a0;
+RA   Johnston M.;
+RT   "Genetic evidence that zinc is an essential co-factor in the DNA
+RT   binding domain of GAL4 protein.";
+RL   Nature 328:353-355(1987).
+RN   [4]
+RP   INTERACTION WITH SRB4.
+RX   MEDLINE=98325402; PubMed=9660972; DOI=10.1016/S1097-2765(00)80088-X;
+RA   Koh S.S., Ansari A.Z., Ptashne M., Young R.A.;
+RT   "An activator target in the RNA polymerase II holoenzyme.";
+RL   Mol. Cell 1:895-904(1998).
+RN   [5]
+RP   INTERACTION WITH GAL11.
+RX   PubMed=11478912; DOI=10.1021/bi010011k;
+RA   Jeong C.-J., Yang S.-H., Xie Y., Zhang L., Johnston S.A., Kodadek T.;
+RT   "Evidence that Gal11 protein is a target of the Gal4 activation domain
+RT   in the mediator.";
+RL   Biochemistry 40:9421-9427(2001).
+RN   [6]
+RP   LEVEL OF PROTEIN EXPRESSION.
+RX   MEDLINE=22923965; PubMed=14562106; DOI=10.1038/nature02046;
+RA   Ghaemmaghami S., Huh W.-K., Bower K., Howson R.W., Belle A.,
+RA   Dephoure N., O'Shea E.K., Weissman J.S.;
+RT   "Global analysis of protein expression in yeast.";
+RL   Nature 425:737-741(2003).
+RN   [7]
+RP   X-RAY CRYSTALLOGRAPHY (2.7 ANGSTROMS) OF 1-65.
+RX   MEDLINE=92212455; PubMed=1557122; DOI=10.1038/356408a0;
+RA   Marmorstein R., Carey M., Ptashne M., Harrison S.C.;
+RT   "DNA recognition by GAL4: structure of a protein-DNA complex.";
+RL   Nature 356:408-414(1992).
+RN   [8]
+RP   STRUCTURE BY NMR OF ZINC-BINDING REGION.
+RX   MEDLINE=90192750; PubMed=2107541;
+RA   Pan T., Coleman J.E.;
+RT   "GAL4 transcription factor is not a 'zinc finger' but forms a
+RT   Zn(II)2Cys6 binuclear cluster.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 87:2077-2081(1990).
+RN   [9]
+RP   STRUCTURE BY NMR OF ZINC-BINDING REGION.
+RX   MEDLINE=91214955; PubMed=2021614;
+RA   Pan T., Coleman J.E.;
+RT   "Sequential assignments of the 1H NMR resonances of Zn(II)2 and
+RT   113Cd(II)2 derivatives of the DNA-binding domain of the GAL4
+RT   transcription factor reveal a novel structural motif for specific DNA
+RT   recognition.";
+RL   Biochemistry 30:4212-4222(1991).
+RN   [10]
+RP   STRUCTURE BY NMR OF ZINC-BINDING REGION.
+RX   MEDLINE=91092433; PubMed=2265711; DOI=10.1016/0014-5793(90)80504-C;
+RA   Gadhavi P.L., Raine A.R.C., Alefounder P.R., Laue E.D.;
+RT   "Complete assignment of the 1H NMR spectrum and secondary structure of
+RT   the DNA binding domain of GAL4.";
+RL   FEBS Lett. 276:49-53(1990).
+RN   [11]
+RP   STRUCTURE BY NMR OF ZINC-BINDING REGION.
+RX   MEDLINE=92212463; PubMed=1557129; DOI=10.1038/356448a0;
+RA   Kraulis P.J., Raine A.R.C., Gadhavi P.L., Laue E.D.;
+RT   "Structure of the DNA-binding domain of zinc GAL4.";
+RL   Nature 356:448-450(1992).
+RN   [12]
+RP   STRUCTURE BY NMR OF ZINC-BINDING REGION.
+RX   MEDLINE=92212464; PubMed=1557130; DOI=10.1038/356450a0;
+RA   Baleja J.D., Marmorstein R., Harrison S.C., Wagner G.;
+RT   "Solution structure of the DNA-binding domain of Cd2-GAL4 from S.
+RT   cerevisiae.";
+RL   Nature 356:450-453(1992).
+CC   -!- FUNCTION: This protein is a positive regulator for the gene
+CC       expression of the galactose-induced genes such as GAL1, GAL2,
+CC       GAL7, GAL10, and MEL1 which encode for the enzymes used to convert
+CC       galactose to glucose. It recognizes a 17 base pair sequence in
+CC       (5'-CGGRNNRCYNYNCNCCG-3') the upstream activating sequence (UAS-G)
+CC       of these genes.
+CC   -!- SUBUNIT: Binds DNA as a homodimer. Interacts directly with the
+CC       mediator subunits GAL11/MED15 and SRB4/MED17.
+CC   -!- SUBCELLULAR LOCATION: Nucleus.
+CC   -!- PTM: Association between GAL11 and GAL4 may serve to expedite
+CC       phosphorylation of GAL4.
+CC   -!- MISCELLANEOUS: Present with 166 molecules/cell.
+CC   -!- SIMILARITY: Contains 1 Zn(2)-C6 fungal-type DNA-binding domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; K01486; AAA34626.1; -; Genomic_DNA.
+DR   EMBL; Z67751; CAA91596.1; -; Genomic_DNA.
+DR   EMBL; Z73604; CAA97969.1; -; Genomic_DNA.
+DR   PIR; A05022; RGBYG4.
+DR   PDB; 1AW6; NMR; @=1-43.
+DR   PDB; 1D66; X-ray; A/B=1-65.
+DR   PDB; 1HBW; NMR; A/B=50-106.
+DR   GermOnline; 144230; -.
+DR   TRANSFAC; T00302; -.
+DR   Ensembl; YPL248C; Saccharomyces cerevisiae.
+DR   GenomeReviews; U00094_GR; YPL248C.
+DR   SGD; S000006169; GAL4.
+DR   BioCyc; SCER-S28-01:SCER-S28-01-006105-MONOMER; -.
+DR   LinkHub; P04386; -.
+DR   GO; GO:0005634; C:nucleus; TAS.
+DR   GO; GO:0016563; F:transcriptional activator activity; TAS.
+DR   GO; GO:0006012; P:galactose metabolism; TAS.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-dependent; TAS.
+DR   InterPro; IPR002409; Aflatoxin_BRP.
+DR   InterPro; IPR007219; Fungal_trans.
+DR   InterPro; IPR001138; Fungi_Trscrp_N.
+DR   InterPro; IPR005600; Gal4_dimer.
+DR   Pfam; PF04082; Fungal_trans; 1.
+DR   Pfam; PF03902; Gal4_dimer; 1.
+DR   Pfam; PF00172; Zn_clus; 1.
+DR   PRINTS; PR00755; AFLATOXINBRP.
+DR   PRINTS; PR00054; FUNGALZNCYS.
+DR   SMART; SM00066; GAL4; 1.
+DR   PROSITE; PS00463; ZN2_CY6_FUNGAL_1; 1.
+DR   PROSITE; PS50048; ZN2_CY6_FUNGAL_2; 1.
+KW   3D-structure; Activator; Carbohydrate metabolism; Complete proteome;
+KW   DNA-binding; Galactose metabolism; Metal-binding; Nuclear protein;
+KW   Phosphorylation; Transcription; Transcription regulation; Zinc.
+FT   CHAIN         1    881       Regulatory protein GAL4.
+FT                                /FTId=PRO_0000114951.
+FT   DNA_BIND     11     38       Zn(2)-C6 fungal-type.
+FT   METAL        11     11       Zinc 1.
+FT   METAL        11     11       Zinc 2.
+FT   METAL        14     14       Zinc 1.
+FT   METAL        21     21       Zinc 1.
+FT   METAL        28     28       Zinc 1.
+FT   METAL        28     28       Zinc 2.
+FT   METAL        31     31       Zinc 2.
+FT   METAL        38     38       Zinc 2.
+FT   MUTAGEN      26     26       P->L: Loss of DNA-binding.
+FT   HELIX        12     17
+FT   TURN         18     18
+FT   STRAND       25     27
+FT   HELIX        29     34
+FT   TURN         35     35
+FT   HELIX        51     61
+FT   TURN         62     63
+FT   STRAND       69     75
+FT   HELIX        79     84
+FT   STRAND       85     86
+FT   HELIX        87     96
+FT   STRAND       99     99
+FT   STRAND      102    103
+SQ   SEQUENCE   881 AA;  99403 MW;  29D7FF68B0B05880 CRC64;
+     MKLLSSIEQA CDICRLKKLK CSKEKPKCAK CLKNNWECRY SPKTKRSPLT RAHLTEVESR
+     LERLEQLFLL IFPREDLDMI LKMDSLQDIK ALLTGLFVQD NVNKDAVTDR LASVETDMPL
+     TLRQHRISAT SSSEESSNKG QRQLTVSIDS AAHHDNSTIP LDFMPRDALH GFDWSEEDDM
+     SDGLPFLKTD PNNNGFFGDG SLLCILRSIG FKPENYTNSN VNRLPTMITD RYTLASRSTT
+     SRLLQSYLNN FHPYCPIVHS PTLMMLYNNQ IEIASKDQWQ ILFNCILAIG AWCIEGESTD
+     IDVFYYQNAK SHLTSKVFES GSIILVTALH LLSRYTQWRQ KTNTSYNFHS FSIRMAISLG
+     LNRDLPSSFS DSSILEQRRR IWWSVYSWEI QLSLLYGRSI QLSQNTISFP SSVDDVQRTT
+     TGPTIYHGII ETARLLQVFT KIYELDKTVT AEKSPICAKK CLMICNEIEE VSRQAPKFLQ
+     MDISTTALTN LLKEHPWLSF TRFELKWKQL SLIIYVLRDF FTNFTQKKSQ LEQDQNDHQS
+     YEVKRCSIML SDAAQRTVMS VSSYMDNHNV TPYFAWNCSY YLFNAVLVPI KTLLSNSKSN
+     AENNETAQLL QQINTVLMLL KKLATFKIQT CEKYIQVLEE VCAPFLLSQC AIPLPHISYN
+     NSNGSAIKNI VGSATIAQYP TLPEENVNNI SVKYVSPGSV GPSPVPLKSG ASFSDLVKLL
+     SNRPPSRNSP VTIPRSTPSH RSVTPFLGQQ QQLQSLVPLT PSALFGGANF NQSGNIADSS
+     LSFTFTNSSN GPNLITTQTN SQALSQPIAS SNVHDNFMNN EITASKIDDG NNSKPLSPGW
+     TDQTAYNAFG ITTGMFNTTT MDDVYNYLFD DEDTPPNPKK E
+//

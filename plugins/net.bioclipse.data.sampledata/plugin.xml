@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+<extension
+      point="net.bioclipse.data.install">
+      <folder 
+      	name="2D structures"
+      	description="Sample structures with 2D coordinates"
+      	location="data/2DStructures"
+      />
+      <folder 
+      	name="3D Structures"
+      	description="Sample structures with 3D coordinates"
+      	location="data/3DStructures"
+      />
+      <folder
+      	name="Amino acids"
+      	description="3D structures for some amino acids"
+      	location="data/AminoAcids"
+      />
+      <folder 
+      	name="Javascripts"
+      	description="Sample scripts in Javascript"
+      	location="data/Javascripts"
+      />
+      <folder 
+      	name="SDF"
+      	description="Sample SDFiles"
+      	location="data/SDF"
+      />
+      <!--folder 
+      	name="SMILES"
+      	description="Sample SMILES files"
+      	location="data/SMILES"
+      /-->
+      <folder 
+      	name="Nucleobases"
+      	description="Some sample nucleobases"
+      	location="data/nucleobases"
+      />
+      <folder 
+      	name="PDB"
+      	description="Sample files in PDB format"
+      	location="data/pdb"
+      />
+      <!--folder 
+        name="spectra"
+        description="Sample spectral data"
+        location="data/spectra"
+      />
+      <folder 
+        name="specmol"
+        description="Sample assigned spectral data"
+        location="data/specmol"
+      /-->
+</extension>
+
+</plugin>
