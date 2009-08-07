@@ -44,16 +44,11 @@
       	description="Sample files in PDB format"
       	location="data/pdb"
       />
-      <!--folder 
-        name="spectra"
-        description="Sample spectral data"
-        location="data/spectra"
-      />
       <folder 
-        name="specmol"
-        description="Sample assigned spectral data"
-        location="data/specmol"
-      /-->
+        name="Pubchem"
+        description="Sample data in Pubchem format"
+        location="data/PubChem"
+      />
 </extension>
 
 </plugin>
