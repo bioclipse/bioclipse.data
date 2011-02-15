@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="net.bioclipse.data.extra_site"
+      id="net.bioclipse.data_site"
       label="Additional Data Sets Update Site"
       version="2.4.1"
       provider-name="The Bioclipse Team">
