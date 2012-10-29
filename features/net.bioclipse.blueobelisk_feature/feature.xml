@@ -2,7 +2,7 @@
 <feature
       id="net.bioclipse.blueobelisk_feature"
       label="Blue Obelisk Data Repository Feature"
-      version="2.1.0"
+      version="2.1.0.qualifier"
       provider-name="The Bioclipse Team"
       plugin="net.bioclipse.data.blueobelisk">
 
