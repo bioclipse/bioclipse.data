@@ -2,7 +2,7 @@
 <feature
       id="net.bioclipse.drugbank_feature"
       label="DrugBank Feature"
-      version="2.5"
+      version="2.5.0.qualifier"
       provider-name="The Bioclipse Team"
       plugin="net.bioclipse.data.drugbank">
 
@@ -15,8 +15,7 @@
    </copyright>
 
    <license url="http://www.drugbank.ca/">
-
-DrugBank is offered to the public as a freely available resource.
+      DrugBank is offered to the public as a freely available resource.
 Use and re-distribution of the data, in whole or in part, for
 commercial purposes requires explicit permission of the authors
 and explicit acknowledgment of the source material (DrugBank)
@@ -31,7 +30,6 @@ Wishart DS et al., DrugBank: a comprehensive resource for in
 silico drug discovery and exploration. Nucleic Acids Res. 2006
 Jan 
 1;34(Database issue):D668-672, doi: 10.1093/nar/gkj067 (http://dx.doi.org/10.1093/nar/gkj067).
-
    </license>
 
    <url>
