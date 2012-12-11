@@ -10,7 +10,7 @@
       	location="data/2DStructures"
       />
       <folder 
-      	name="3D Structures"
+      	name="3D structures"
       	description="Sample structures with 3D coordinates"
       	location="data/3DStructures"
       />
