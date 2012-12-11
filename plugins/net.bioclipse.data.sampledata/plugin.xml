@@ -20,8 +20,8 @@
       	location="data/AminoAcids"
       />
       <folder 
-      	name="Javascripts"
-      	description="Sample scripts in Javascript"
+      	name="JavaScript scripts"
+      	description="Sample scripts in JavaScript"
       	location="data/Javascripts"
       />
       <folder 
