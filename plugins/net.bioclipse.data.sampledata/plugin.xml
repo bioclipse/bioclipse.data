@@ -10,7 +10,7 @@
       	location="data/2DStructures"
       />
       <folder 
-      	name="3D Structures"
+      	name="3D structures"
       	description="Sample structures with 3D coordinates"
       	location="data/3DStructures"
       />
@@ -20,8 +20,8 @@
       	location="data/AminoAcids"
       />
       <folder 
-      	name="Javascripts"
-      	description="Sample scripts in Javascript"
+      	name="JavaScript scripts"
+      	description="Sample scripts in JavaScript"
       	location="data/Javascripts"
       />
       <folder 
