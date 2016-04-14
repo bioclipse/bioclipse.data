@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cspec xmlns="http://www.eclipse.org/buckminster/CSpec-1.0" name="net.bioclipse.data_releng" componentType="buckminster" version="2.6.2">
+    <dependencies>
+        <dependency name="net.bioclipse.data_site" componentType="eclipse.feature" />
+    </dependencies>
+    <actions>
+      <public name="site.mirror.p2" actor="p2SiteMirror">
+        <prerequisites>
+          <attribute name="site.p2" alias="site"/>
+        </prerequisites>
+        <products base="${bioclipse.mirror}/${bioclipse.mirror.name}" upToDatePolicy="ACTOR" />
+      </public>
+    </actions>
+    <groups>
+        <public name="site.p2">
+            <attribute name="site.p2" component="net.bioclipse.data_site"/>
+        </public>
+    </groups>
+</cspec>
