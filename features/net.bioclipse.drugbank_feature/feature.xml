@@ -2,7 +2,7 @@
 <feature
       id="net.bioclipse.drugbank_feature"
       label="DrugBank Feature"
-      version="2.6.0.vqualifier"
+      version="2.6.2.qualifier"
       provider-name="The Bioclipse Team"
       plugin="net.bioclipse.data.drugbank">
 

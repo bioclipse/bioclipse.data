@@ -2,7 +2,7 @@
 <feature
       id="net.bioclipse.sampledata_feature"
       label="Sample Data Feature"
-      version="2.6.0.vqualifier"
+      version="2.6.2.qualifier"
       provider-name="The Bioclipse Team"
       plugin="net.bioclipse.data.sampledata">
 

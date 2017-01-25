@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Blue Obelisk Chemical Structures Repository
 Bundle-SymbolicName: net.bioclipse.data.blueobelisk;singleton:=true
-Bundle-Version: 2.6.0.vqualifier
+Bundle-Version: 2.6.2.qualifier
 Bundle-Activator: net.bioclipse.data.blueobelisk.Activator
 Bundle-Vendor: The Bioclipse Team
 Require-Bundle: org.eclipse.ui,
